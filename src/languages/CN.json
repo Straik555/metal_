@@ -1,0 +1,1294 @@
+{
+  "Notifications": {
+    "success": "成功",
+    "money_error": "沒有足夠的錢",
+    "common_error": "出了點問題，請重試",
+    "Withdraw": {
+      "title": "提取",
+      "withdraw_success": "您的提款請求已成功創建",
+      "withdraw_gold_request_success": "您的出金請求已成功創建",
+      "withdraw_error_fee": "輸入的金額低於交易費用",
+      "withdraw_error_adress": "您輸入的地址無效",
+      "withdraw_server_overloaded": "服務器超載請過幾分鐘再試",
+      "withdraw_server_error": "服務器出現問題，請重試",
+      "common_error": "出了點問題，請重試"
+    },
+    "Deposit": {
+      "title": "訂金",
+      "adress_creating_success": "地址創建成功",
+      "adress_creating_error": "存款被禁用"
+    },
+    "Exchange": {
+      "title": "即時交換",
+      "exchange_success": "你成功兌換",
+      "exchange_server_error": "服務器出現問題，請過幾分鐘再試。",
+      "exchange_limit_error": "最小限制為 {code} 。",
+      "exchange_rate_error": "匯率不可用。",
+      "exchange_balance_error": "你沒有足夠的錢。",
+      "exchange_common_error": "出了點問題，請重試。"
+    },
+    "Auth": {
+      "ChangePassword": {
+        "title": "密碼更改",
+        "change_success": "成功。您已成功找回密碼"
+      },
+      "ResetPassword": {
+        "title": "重設密碼",
+        "reset_success": "成功。您已成功重置密碼",
+        "authenticator_2fa_error": "需要 Google 身份驗證器代碼 (2FA)",
+        "email_is_not_registered": "錯誤。此郵箱未註冊",
+        "email_incorrect": "您輸入了錯誤的電子郵件"
+      },
+      "SignUp": {
+        "title": "報名",
+        "register_success": "您已註冊成功。查看你的郵件",
+        "register_email_error": "錯誤。這個電子郵件已被註冊",
+        "register_common_error": "出問題了。請再試一次。"
+      },
+      "VerifyIP": {
+        "title": "驗證 IP",
+        "verify_success": "您已成功驗證您的 IP",
+        "wrong_code": "您輸入了錯誤的代碼。再試一次。",
+        "recent_code_message": "查看電子郵件"
+      },
+      "Login": {
+        "title": "登錄",
+        "email_confrim_success": "您的郵箱已成功確認",
+        "email_confrim_warning": "您的電子郵件已被確認。",
+        "authenticator_2fa_error": "您應該填寫 2FA 字段",
+        "error_credentials": "錯誤。數據不正確",
+        "error_email_confirm": "錯誤。您必須確認您的電子郵件",
+        "error_totp_code": "錯誤。數據不正確",
+        "error_email_not_registered": "此郵箱未註冊",
+        "error_blocked": "您已被管理員屏蔽"
+      }
+    },
+    "Pairs": { "common_error": "出了點問題，請重試。" },
+    "Settings": {
+      "API": {
+        "title": "火",
+        "key_creating_success": "成功。 API 密鑰已創建",
+        "key_deleting_success": "成功。 API 密鑰被刪除"
+      },
+      "Dashboard": { "common_error": "出了點問題，請重試。" },
+      "Identification": {
+        "title": "鑑別",
+        "updating_success": "用戶數據已更新",
+        "error_uploading_photo": "請上傳照片",
+        "error_already_verified": "用戶已驗證",
+        "error_file_updating": "文件未更新，用戶已驗證",
+        "error_file_deleting": "文件未更新，用戶已驗證",
+        "error_fields": "請正確填寫所有必填字段"
+      },
+      "Security": {
+        "title": "安全",
+        "success_password_change": "成功。您的密碼已被更改",
+        "error_data_incorrect": "錯誤。數據不正確"
+      }
+    },
+    "Support": { "sending_success": "成功。您的留言已發送。" },
+    "Fiat": {
+      "title": "訂金",
+      "invoice_success": "您的發票已成功創建。你現在可以下載",
+      "invoice_verify_error": "您需要驗證您的帳戶",
+      "small_amount_to_deposit": "金額太小，無法存款。",
+      "request_success": "您的請求已成功創建"
+    },
+    "MarginRepay": {
+      "amount_balance_error": "金額大於可用餘額！",
+      "amount_value_error": "輸入金額值！"
+    },
+    "MarkretOrder": { "title": "訂單失敗", "funds_error": "資金不足" }
+  },
+  "Auth": {
+    "ForgotPassword": {
+      "enter_email": "輸入電子郵件以重置密碼。",
+      "enter_valid_email": "輸入有效的電子郵件。",
+      "next": "下一個",
+      "reset_login_password": "重置登錄密碼"
+    },
+    "Login": {
+      "enter_valid_email": "輸入有效郵件地址",
+      "email": "電子郵件",
+      "error_password": "密碼必須至少為 8 個字符，使用 1 個小寫字母、1 個大寫字母、1 個數字和 1 個符號，最多 25 個字符",
+      "forgot_password": "忘記密碼？",
+      "signIn": "登入",
+      "password": "密碼",
+      "remember_me": "記得我"
+    },
+    "NewIpLogger": {
+      "check_your_email": "查看你的郵件",
+      "code": "代碼",
+      "didnt_get_code": "沒有收到代碼？請稍等幾分鐘。",
+      "if_you_didnt_get": "如果您沒有收到 6 位代碼，請輕點",
+      "login_new_device": "您已使用新設備登錄。請輸入我們通過電子郵件發送給您的 6 位代碼",
+      "resend_code": "重新發送驗證碼"
+    },
+    "RecoveryPassword": {
+      "confirm_password": "確認密碼",
+      "error_password": "密碼必須至少為 8 個字符，使用 1 個小寫字母、1 個大寫字母、1 個數字和 1 個符號，最多 25 個字符",
+      "new_password": "新密碼",
+      "password_recovery": "找回密碼",
+      "passwords_not_match": "密碼不匹配。",
+      "save": "保存"
+    },
+    "SignupPage": {
+      "already_registered": "已經登記了？",
+      "create_free_account": "創建一個免費帳戶",
+      "create_account": "創建帳號",
+      "email": "電子郵件",
+      "email_error": "輸入有效郵件地址",
+      "error_password": "密碼必須至少為 8 個字符，使用 1 個小寫字母、1 個大寫字母、1 個數字和 1 個符號，最多 25 個字符",
+      "i_have_read": "我已經閱讀並且同意",
+      "password": "密碼",
+      "please_agree": "請同意條款和條件",
+      "terms_conditions": "金屬交易術語",
+      "welcome": "歡迎來到金屬交易"
+    }
+  },
+  "Base": {
+    "Modals": {
+      "Captcha": {
+        "platform": "MTC",
+        "slide_text": "滑動完成拼圖",
+        "text": "與我們在任何地方交易"
+      },
+      "ModalMargin": {
+        "MarginTransfer": { "margin_transfers": "保證金轉移" },
+        "MarginBorrow": {
+          "borrowed": "借來的",
+          "confirm_borrow": "確認借用",
+          "error_title": "保證金借入",
+          "hourly_inrerest_rate": "每小時利息率",
+          "interest_text": "借入代幣後將立即產生 1 小時的利息，並將繼續每小時產生一次利息",
+          "maximum_borrow": "最大借款金額"
+        },
+        "Repay": {
+          "borrowed_b": "借用（B）：",
+          "confirm_repayment": "確認還款",
+          "interest_a": "利息（A）：",
+          "interest_text": "借入代幣後將立即產生 1 小時的利息，並將繼續每小時產生一次利息",
+          "select_asset": "選擇資產",
+          "total_debt": "總債務（A + B）：",
+          "you_borrowed": "您還沒有借用任何 {code}。"
+        }
+      },
+      "ModalFutures": { "error_title": "期貨轉賬" },
+      "higherThanPrice": "您的訂單價格比最新市場價格高出 5% 或更多。",
+      "lessThanPrice": "您的訂單價格比最新市場價格低 5% 或更多。",
+      "amount_is_bigger": "金額大於可用餘額！",
+      "confirm_transfer": "確認轉賬",
+      "enter_amount": "輸入金額值！",
+      "futures_wallet": "期貨錢包",
+      "margin_wallet": "保證金錢包",
+      "spot_wallet": "現貨錢包"
+    }
+  },
+  "BuyCrypto": {
+    "amount": "數量",
+    "available_balance": "可用餘額",
+    "buy": "買",
+    "date_time": "約會時間",
+    "exchange_history": "交易記錄",
+    "exchange": "交換",
+    "fee": "費用",
+    "hours_change": "24小時變化",
+    "instant_exchange": "即時交換",
+    "pair": "一對",
+    "rate": "速度",
+    "sell": "賣",
+    "total": "全部的",
+    "buy_error": "購買金額不能大於您的餘額或 0。",
+    "sell_error": "賣出金額不能大於您的餘額或 0。",
+    "sell_invalid_value": "請輸入有效值。",
+    "comission_info": "本次交易佣金：",
+    "amount_info": "貸記金額："
+  },
+  "Footer": {
+    "privacy_policy": "隱私政策",
+    "terms_of_use": "使用條款",
+    "FAQs": "常見問題",
+    "about_us_link": "關於我們",
+    "contact_us_link": "聯繫我們"
+  },
+  "Global": {
+    "cancel": "取消",
+    "confirm": "確認",
+    "confirm_payment": "確認付款",
+    "delete": "刪除",
+    "login": "登錄",
+    "do_login": "登錄",
+    "nothing": "沒什麼可顯示的",
+    "no_fav": "未找到收藏夾",
+    "search_email": "搜索電子郵件",
+    "no": "不",
+    "or": "或者",
+    "off": "離開",
+    "on": "上",
+    "submit": "提交",
+    "sign_up": "註冊",
+    "do_sign_up": "註冊",
+    "to_trade": "交易",
+    "yes": "是的",
+    "nothing_to_show": "沒什麼可顯示的"
+  },
+  "HomePage": {
+    "AdvantagesSection": {
+      "title": "保持聯繫。總是在你身邊。",
+      "subtitle": "舉例說明文字，不要翻譯。",
+      "support_time": "24/7 全天候支持",
+      "support_text": "需要我們的幫助嗎？我們已準備好解決您的問題。",
+      "support_link": "支持",
+      "community_heading": "社區",
+      "community_text": "加入我們全球社區的對話。"
+    },
+    "CoinSection": { "24h_change": "24小時變化", "buy_now": "立即購買" },
+    "CardSection": {
+      "title": "與我們在任何地方交易",
+      "subtitle": "Metal Trading Company 加密貨幣交易所的所有功能盡在您的掌中。立即下載 Metal Trading Company 移動加密貨幣交易應用程序。"
+    },
+    "HomeSection": {
+      "platform": "金屬貿易公司",
+      "title_info": "Metal Trading Company 是一個半去中心化的加密貨幣交易平台。安全是我們的首要任務，我們的目標是為交易加密貨幣提供安全可靠的環境。",
+      "trade_now": "立即交易"
+    },
+    "PageSection": {
+      "title": " 最值得信賴的加密貨幣平台",
+      "subtitle": "以下是您應該加入金屬貿易公司的原因",
+      "secure_storage_1": "安全錢包技術",
+      "secure_info_1": "將您的加密貨幣存儲在我們由頂級安全專家開發的錢包中。",
+      "secure_storage_2": "創新產品系列",
+      "secure_info_2": "發現我們所有的加密貨幣選項，例如現貨和衍生品交易、借貸和鏈上錢包、礦池等。",
+      "secure_storage_3": "全球客戶群",
+      "secure_info_3": "加入我們不斷壯大的全球用戶社區。"
+    },
+    "TradeCryptoSection": {
+      "title": "幾分鐘內交易加密貨幣",
+      "subtitle": "Metal Trading Company 支持多種加密貨幣。",
+      "register_account": "註冊賬戶",
+      "register_text": "在金屬貿易公司註冊賬戶並開始交易",
+      "deposit_heading": "訂金",
+      "deposit_info": "存入 BTC 以兌換其他加密貨幣",
+      "orders_heading": "買賣訂單",
+      "orders_info": "具有強大交易引擎的實時買賣訂單"
+    },
+    "StatisticSection": {
+      "cryptocurrency_exchanged": "加密貨幣交換",
+      "countries_supported": "支持的國家",
+      "customers_served": "服務過的客戶"
+    }
+  },
+  "Header": {
+    "SelectAnalytics": {
+      "analytics": "分析",
+      "copy_trading": "跟單交易",
+      "value_analytics": "價值分析"
+    },
+    "SelectBuyCrypto": {
+      "P2P": "點對點",
+      "buy_crypto": "購買加密貨幣",
+      "bank_transfer": "銀行轉帳",
+      "exchange": "交換"
+    },
+    "SelectContracts": {
+      "contract": "合同",
+      "change": "改變",
+      "last_price": "最後價格",
+      "volume": "音量（24 小時）"
+    },
+    "SelectDownload": { "app_store": "應用商店", "android": "安卓" },
+    "SelectOrders": {
+      "P2P_orde": "點對點訂單",
+      "derivative_order": "衍生訂單",
+      "futures_order": "期貨訂單",
+      "margin_order": "保證金訂單",
+      "orders": "命令",
+      "spot_order": "現貨訂單"
+    },
+    "SelectPairs": {
+      "coin": "硬幣",
+      "change": "改變",
+      "last_price": "最後價格",
+      "price_snapshot": "價格快照",
+      "volume": "音量（24 小時）"
+    },
+    "SelectTrade": {
+      "derivatives": "衍生品",
+      "futures": "期貨",
+      "list_of_pairs": "對列表",
+      "margin": "利潤",
+      "spot": "點",
+      "trade": "貿易"
+    },
+    "SelectUser": {
+      "API_management": "API 管理",
+      "dashboard": "儀錶盤",
+      "identification": "鑑別",
+      "log_out": "登出",
+      "reward_center": "獎勵中心",
+      "security": "安全",
+      "approved": "得到正式認可的",
+      "pending": "待辦的",
+      "reject": "拒絕",
+      "unverified": "未經證實"
+    },
+    "SelectWallets": {
+      "P2P": "點對點",
+      "futures": "期貨",
+      "margin": "利潤",
+      "spot": "點",
+      "transaction_history": "交易記錄",
+      "wallets": "錢包"
+    },
+    "binary_options": "二元期權",
+    "WhitePaper": "白皮書"
+  },
+  "Invoice": {
+    "account_holder": "賬戶持有人名稱：",
+    "account_number": "賬號：",
+    "amount": "數量",
+    "account": "帳戶：",
+    "bank_details": "銀行明細：",
+    "bank_state_branch": "銀行州分行：",
+    "billed_to": "付款人：",
+    "created": "創建：",
+    "country": "國家：",
+    "city": "城市：",
+    "date_issue": "簽發日期：",
+    "description": "描述",
+    "invoice": "發票",
+    "invoice_number": "發票號碼：",
+    "invoice_total": "發票總額：",
+    "phone": "電話：",
+    "post_code": "郵政編碼：",
+    "state": "狀態：",
+    "street": "街道：",
+    "subtotal": "小計：",
+    "tax": "稅：",
+    "user": "用戶："
+  },
+  "Other": {
+    "approved": "您的帳戶已獲批准。",
+    "invalid_email": "不合規電郵",
+    "invalid_phone": "無效的電話號碼",
+    "pending": "我們拿到了你的文件。請稍等，我們會盡快處理。",
+    "password_must_be": "密碼必須至少為 8 個字符，使用 1 個小寫字母、1 個大寫字母、1 個數字和 1 個符號，最多 25 個字符",
+    "rejected": "您的帳戶被拒絕。原因：{text}",
+    "required": "此字段是必需的",
+    "smg_went_wrong": "出問題了",
+    "unverified": "您的帳戶未經驗證。"
+  },
+  "Statics": {
+    "ContactUs": {
+      "contact_support": "聯繫支持",
+      "description": "描述",
+      "email": "電子郵件",
+      "email_error": "輸入有效郵件地址",
+      "enter_message_text": "輸入消息文本",
+      "full_name": "全名",
+      "full_name_error": "輸入有效名稱",
+      "helsinki_finland": "芬蘭赫爾辛基",
+      "location": "地點",
+      "need_help": "需要我們的幫助嗎？",
+      "need_help_2": "聯繫我們",
+      "send": "發送",
+      "MTC_new_generation": "Metal Trading 是新一代的加密貨幣平台。",
+      "MTC_support": "金屬交易支持",
+      "text": "你有問題嗎？我們有答案。如有任何問題，請聯繫我們的支持團隊，我們將盡快幫助您解決。您也可以通過我們的官方“MTC”電報頻道聯繫我們。",
+      "topic": "話題"
+    },
+    "AboutUs": {
+      "AboutUs": "關於我們",
+      "title": "交易加密貨幣的首選交易所",
+      "title2": "Metal Trading Company 的使命是為我們的用戶提供終極的加密貨幣交易體驗。",
+      "text1": "Metal Trading Company 致力於通過為我們的用戶提供最先進的交易工具、創新技術和無與倫比的客戶服務水平來實現這一目標。",
+      "text2": "數字資產領域正在以極快的速度發展。為了跟上如此快速的技術創新，需要一種同樣具有前瞻性和敏捷性的方法。 Metal Trading Company 為我們的用戶和全球流動性提供商提供最先進的數字資產交易服務。",
+      "text3": "我們堅信應該為每個人提供最好的加密貨幣交易體驗。",
+      "cart1_title": "Lorem ipsum 胡蘿蔔",
+      "cart1_text": "Lorem ipsum dolor sat amet，consectetur adipiscing elit，sed 時間和活力，讓勞動和悲傷，一些重要的事情做eiusmod。"
+    },
+    "FAQ": {
+      "title": "常見問題",
+      "subtitle": "Metal Traiding Company 是新一代的加密貨幣平台。",
+      "section_1": {
+        "title": "提現到錯誤地址",
+        "text": "只要您單擊電子郵件帳戶中的“提款確認”按鈕，Coinbird 就會開始自動提款流程。不幸的是，一旦啟動就無法阻止。由於區塊鏈的匿名性，Coinbird 也無法定位您的資金已發送到何處。如果您錯誤地將您的硬幣發送到了錯誤的地址，請使用其他方式嘗試定位和/或聯繫您的資金接收者。如果您將資金提取到另一個帶有不正確或空標籤/必需描述的交易所，請聯繫接收交易所並提供您的 TxID 以組織您的資金返還。"
+      },
+      "section_2": {
+        "title": "存錯幣",
+        "text": "只要您單擊電子郵件帳戶中的“提款確認”按鈕，Coinbird 就會開始自動提款流程。不幸的是，一旦啟動就無法阻止。由於區塊鏈的匿名性，Coinbird 也無法定位您的資金已發送到何處。如果您錯誤地將您的硬幣發送到了錯誤的地址，請使用其他方式嘗試定位和/或聯繫您的資金接收者。"
+      },
+      "section_3": {
+        "title": "提現到錯誤地址",
+        "text": "只要您單擊電子郵件帳戶中的“提款確認”按鈕，Coinbird 就會開始自動提款流程。不幸的是，一旦啟動就無法阻止。"
+      },
+      "section_4": {
+        "title": "提現到錯誤地址",
+        "text": "只要您單擊電子郵件帳戶中的“提款確認”按鈕，Coinbird 就會開始自動提款流程。不幸的是，一旦啟動就無法阻止。由於區塊鏈的匿名性，Coinbird 也無法定位您的資金已發送到何處。如果您錯誤地將您的硬幣發送到了錯誤的地址，請使用其他方式嘗試定位和/或聯繫您的資金接收者。如果您將資金提取到另一個帶有不正確或空標籤/必需描述的交易所，請聯繫接收交易所並提供您的 TxID 以組織您的資金返還。"
+      },
+      "section_5": {
+        "title": "存錯幣",
+        "text": "只要您單擊電子郵件帳戶中的“提款確認”按鈕，Coinbird 就會開始自動提款流程。不幸的是，一旦啟動就無法阻止。由於區塊鏈的匿名性，Coinbird 也無法定位您的資金已發送到何處。如果您錯誤地將您的硬幣發送到了錯誤的地址，請使用其他方式嘗試定位和/或聯繫您的資金接收者。"
+      },
+      "section_6": {
+        "title": "提現到錯誤地址",
+        "text": "只要您單擊電子郵件帳戶中的“提款確認”按鈕，Coinbird 就會開始自動提款流程。不幸的是，一旦啟動就無法阻止。"
+      }
+    },
+    "PrivacyPolicyPages": {
+      "title": "隱私政策",
+      "last_revision_date": "上次修訂日期：2015 年 2 月",
+      "p_01": "本隱私政策旨在描述如何管理網站 {link}，並參考對訪問該網站的用戶的個人數據的處理。",
+      "p_02": "這是根據現行法律向與 Metal Trading Company Ltd（以下簡稱“MTC”）的網絡服務交互的人員提供的信息，以保護個人數據，可從以下地址以電子方式訪問：{link}，對應於MTC官方網站首頁。",
+      "p_03": "該信息僅提供給 MTC 網站，不提供給用戶可能通過鏈接訪問的其他網站。",
+      "p_04": "該信息還受到兩個社區指令的啟發：",
+      "p_04_note_1": "指令 2009/136 / EC 修訂指令 2002/22 / EC 關於電子通信網絡和服務領域的普遍服務和用戶權利，指令 2002/58 / EC 關於數據處理個人數據和電子通信中的隱私保護部門和法規 (EC) 編號。關於負責執行消費者保護立法的國家當局之間合作的 2006/2004；",
+      "p_04_note_2": "指令 2009/140 / EC 修訂指令 2002/21 / EC 建立電子通信網絡和服務的通用監管框架，2002/19 / EC 與電子通信網絡和相關資源的訪問及其互連和 2002/20 / EC與電子通信網絡和服務的授權有關。",
+      "p_05": "該信息也基於第 1 號建議書。 2/2001 年，歐洲當局為保護個人數據，聚集在藝術成立的集團。 29 指令 n。 95/46 / EC，於 2001 年 5 月 17 日通過，以確定在線收集個人數據的一些最低要求，特別是數據控制者在用戶連接到用戶時必須提供給用戶的信息的方法、時間和性質網頁，無論鏈接的目的如何",
+      "p_06": "MTC 保留隨時更改此政策的權利。因此，請用戶查看文檔底部的“上次修訂日期”，以查看上次更新的時間。",
+      "TheOwnerOfTheTreatment": {
+        "block_heading": "治療的“所有者”",
+        "p_01": "諮詢本網站後，可能會處理與已識別或可識別人員相關的數據。他們治療的“所有者”是 MTC，它位於馬耳他廣場，9 月 16 日，Cornerstone 商務中心，Suite 1，Level 2 Mosta MST1180。"
+      },
+      "PlaceOfDataProcessing": {
+        "block_heading": "數據處理地點",
+        "p_01": "與本網站的網絡服務相關的處理，以及與客戶、供應商、在我們的郵件列表中註冊的主題相關的個人數據的處理，以及通常與我們有業務關係的所有主題的處理，發生在上述 MTC 總部，並且僅由 MTC 的員工、合作夥伴、被任命為數據處理者的合作者或任何負責電子和 IT 設備不定期維護操作的人員處理。",
+        "p_02": "不會傳遞或傳播源自網絡服務的數據。",
+        "p_03": "個人數據的交流和可能的傳播僅在現行法律規定的基礎上進行：經相關方同意或在法律規定的情況下。"
+      },
+      "PurposeOfDataProcessing": {
+        "block_heading": "數據處理的目的",
+        "p_01": "所提供的個人數據僅用於與使用網站和/或響應發送到網站上指定的電子郵件地址的特定請求嚴格相關的目的。提交信息和/或服務材料請求的用戶以及在我們的郵件列表中註冊的客戶、供應商和主題以及通常與我們有業務關係的所有主題提供的個人數據僅用於唯一目的執行所要求的服務或規定，或為了履行合同或法律義務，並且僅在為此目的有必要時才將它們傳達給第三方（例如，用於分類和裝袋信件的服務公司）。個人數據的處理遵循必要性、合法性、正確性、質量和相稱性原則，不涉及敏感性質的數據，不以分析活動為對象，並且如前所述專門針對, 在允許使用網站和/或響應發送到網站上指定的電子郵件地址的特定請求時。"
+      },
+      "TypesOfDataProcessed": {
+        "block_heading": "處理的數據類型",
+        "p_01": "導航數據",
+        "p_02": "用於運行本網站的計算機系統和軟件程序在其正常運行過程中會獲取一些個人數據，這些數據的傳輸隱含在互聯網通信協議的使用中。",
+        "p_03": "收集這些信息不是為了與已識別的利益相關方相關聯，但由於其通過處理和與第三方持有的數據關聯的性質，它可以允許識別用戶。",
+        "p_04": "此類數據包括連接到站點的用戶使用的計算機的 IP 地址或域名、請求資源的 URI（統一資源標識符）地址、請求的時間、用於提交請求的方法服務器、響應獲得的文件大小、表示服務器給出的響應狀態（成功、錯誤等）的數字代碼以及與操作系統和用戶計算機環境相關的其他參數。",
+        "p_05": "這些數據僅用於獲取有關網站使用情況的匿名統計信息並檢查其正確運行，並在處理後立即刪除。數據可用於確定網站發生假設性計算機犯罪時的責任：除了這種可能性，網絡聯繫人的數據不會永久存儲，除非用戶要求（例如：訪問網站的頁面，總結了使用的服務、請求的信息等）。",
+        "p_06": "用戶自願提供的數據",
+        "p_07": "向本網站上指定的地址發送電子郵件的可選、明確和自願的方式需要隨後獲取發件人的地址，這是響應請求所必需的，以及消息中包含的任何其他個人數據。特定的摘要信息最終將根據請求報告或顯示在為特定服務設置的站點頁面上。"
+      },
+      "Cookies": {
+        "block_heading": "餅乾",
+        "p_01": "Cookie 是存儲在您的計算機（或移動設備）上的小型文本文件。它們被廣泛用於使網站正常工作或使它們更好、更有效地工作。",
+        "p_02": "在這方面，本網站不會獲取任何個人用戶數據。",
+        "p_03": "所謂的會話 cookie（不會永久存儲在用戶的計算機上並在瀏覽器關閉時消失）的使用嚴格限於傳輸允許安全瀏覽所需的會話標識符（由服務器生成的隨機數組成）和高效的網站。",
+        "p_04": "本網站使用的所謂會話 cookie 避免使用其他可能損害用戶瀏覽隱私的 IT 技術，並且不允許獲取用戶的個人身份數據。"
+      },
+      "OptionalProvisionOfData": {
+        "block_heading": "可選的數據提供",
+        "p_01": "除了為導航數據指定的內容外，用戶始終可以出於連接到網站的目的自由提供個人數據（通過填寫註冊表請求信息、註冊任何新聞通訊等）。但是，在某些情況下，未能提供數據可能會導致無法獲得所要求的信息。"
+      },
+      "MethodOfTreatment": {
+        "block_heading": "治療方法",
+        "p_01": "個人數據使用自動化工具（例如使用電子程序和媒體）和/或手動（例如在紙上）處理，時間為實現收集目的所必需的時間。遵守特定的安全措施以防止數據丟失、非法或錯誤使用和未經授權的訪問。"
+      },
+      "RightsOfTheInterestedParties": {
+        "block_heading": "利益相關方的權利",
+        "p_01": "個人數據所指的主體享有某些權利；特別是，他們可以在任何時候： (i) 從承運人處獲得關於他們的個人數據是否存在的確認，即使尚未註冊，以及他們以可理解的形式進行的通信，（對於上述請求，如果存在申請人的數據未得到確認的，數據控制者可以要求收取費用，但不超過所有者本人實際負擔的費用）； (ii) 要求確認其個人數據所有者在總部的存在（對於此請求，如果未確認有關申請人的數據存在，數據控制者可以要求費用，不超過實際支持的費用由業主本人）； (iii) 從數據控制者處獲取關於個人數據來源、其處理目的和方法的說明，以及在藉助電子工具處理個人數據的情況下所應用的邏輯信息; (iv) 同時，他們可以獲得有關可以向其傳達個人數據或可以擁有的主體和主體類別的指示； (v) 獲取個人資料的更新、更正和整合； (vi) 要求取消、轉換為匿名形式或阻止違法處理的數據，包括不需要為收集或後續處理目的而保留的數據，並獲得上述操作的證明已提請向其傳達或傳播數據的人注意，但發現無法履行或涉及使用與受保護權利明顯不相稱的資源的情況除外； (vii) 反對出於合法原因處理與他們有關的個人數據，或者在將數據用於發送廣告或直銷材料或進行市場研究或商業通信的情況下，同時被告知，當數據被傳達和傳播時，免費行使這項權利的可能性。",
+        "p_02": "請求應發送至 Metal Trading Company Ltd，通過電子郵件：{email} 或郵寄至以下地址：馬耳他廣場 9 月 16 日，Cornerstone 商務中心，Suite 1，Level 2 Mosta MST1180。"
+      }
+    },
+    "TermsConditionsPages": {
+      "title": "服務條款 MTC",
+      "last_revision_date": "上次修訂日期：2021 年 5 月",
+      "GeneralInformation": {
+        "block_heading": "一般信息",
+        "p_01": "Metal Trading Company sagl（以下簡稱“MTC”）是一家根據瑞士法律註冊成立的公司，註冊辦事處位於via Nassa, 17 在盧加諾商會註冊，編號為。 …… 商業登記冊，CF 編號。 …………增值稅號…………",
+        "p_02": "MTC 是一家專門從事貴金屬交易的國際經紀商，並為貴金屬提供投資和託管服務。為法定貨幣和加密貨幣提供相同的機會。"
+      },
+      "Introduction": {
+        "block_heading": "介紹",
+        "p_01": "下面列出的一般使用條件（以下也稱為“條件”）管轄用戶和 MTC 之間規定的合同，以及後者提供的服務，可在網站上訪問：{link}（以下也稱為“用戶” ）。",
+        "p_02": "使用 MTC 提供的服務決定用戶完全接受這些條件以及隱私政策。",
+        "p_03": "因此，請用戶仔細閱讀這些條件、其中提及的文件以及網站上任何地方發布的任何其他說明。",
+        "p_04": "MTC 提供的服務僅供 18 歲以上人士使用。",
+        "p_05": "MTC 保留隨時修改這些條款的權利。用戶必須始終參考在諮詢時發布的條件文本作為當前版本。",
+        "p_06": "任何更改將通過在網站 {link} 上發布的方式公佈，並在發布後的第二天生效。",
+        "p_07": "因此，請用戶查看文檔底部的“上次修訂日期”，以查看上次更新的時間。",
+        "p_08": "對新條件不滿意的用戶將有權按照以下第 17 條規定的方式退出本合同。",
+        "p_09": "處所構成這些條件的組成部分和重要部分，並承擔所有目的的協議的價值。"
+      },
+      "ServiceOffered": {
+        "block_heading": "提供的服務",
+        "p_01": "MTC承諾通過自有的遠程信息處理平台提供貴金屬交易服務（以下簡稱“服務”），用戶在開戶後可通過轉賬或MT方式買賣貴金屬-Coins，一種加密貨幣，除了提供購買黃金的可能性外，還根據智能合約為持有者定義了一系列權利。",
+        "p_02": "MTC 還為投資組合中持有的貴金屬提供交付服務。",
+        "p_03": "通過該平台，MTC 允許用戶以電子方式持有實物黃金，並可隨時要求交付。",
+        "p_04": "通過平台，用戶提出以特定價格買入或賣出黃金的請求。",
+        "p_05": "用戶承認並接受 MTC 可能會使用為此目的確定的其他受信任的經紀人，以便它可以保證必要的覆蓋範圍，以允許正常使用和正確提供所提供的服務。"
+      },
+      "Warnings": {
+        "block_heading": "警告",
+        "p_01": "商品交易和使用同一平台會給用戶的投資帶來高風險。由於這些市場的波動性，請用戶仔細評估與使用該平台以及這些金融工具相關的所有風險。這種類型的投資可能不適合任何類型的投資者。用戶聲明已閱讀並理解這些條件，並了解與購買和銷售這些產品相關的風險。",
+        "p_02": "在 MTC 平台上進行商品交易（例如持有加密貨幣）可能會導致重大損失。用戶承認並接受這種風險，可以隨時關閉投資組合中的頭寸。",
+        "p_03": "用戶還承認，如果用戶不符合誠信和遵守法律的要求，MTC 將能夠獨立進行賬戶關閉。如果當局提出要求，MTC 將向他們提供用戶的帳戶，而後者在當局做出決定之前無法再次訪問該帳戶。"
+      },
+      "TypeOfServiceCostsAndCommissions": {
+        "block_heading": "服務成本和佣金類型",
+        "p_01": "MTC 向用戶提供其在線交易平台，通過該平台用戶可以：",
+        "p_01_subtitle_01": "購買 MT 幣",
+        "p_01_subtitle_01_option_a": "通過加密佣金 {commission}%。",
+        "p_01_subtitle_01_option_b": " 通過法定貨幣不存在佣金",
+        "p_01_subtitle_01_option_c": " 通過信用卡支付 {commission}% 的佣金。",
+        "p_01_subtitle_02": "通過MT-Coins購買黃金",
+        "p_01_subtitle_02_option_a": " 購買黃金（MT-Coins的價值根據MT-Coins的購買數量而變化）",
+        "p_01_subtitle_02_option_b": " 數字，{g_commission_incoming}% 傳入和 {g_commission_outgoing}% 傳出點差",
+        "p_01_subtitle_02_option_c": " 實物交割，{commission}% 點差加上交割成本",
+        "p_01_subtitle_03": "從其他 Crypto {commission}% 的 MT-Coins 購買。",
+        "p_02": "對於每次購買或銷售，用戶都需要向 MTC 支付佣金。",
+        "p_03": "交付費用由用戶全權負責，並根據必須交付或收集金屬的地點而有所不同。",
+        "DeliveryOfPhysicalGold": {
+          "block_heading": "實物黃金交割",
+          "p_01": "黃金交付的最小數量為 200 克。",
+          "p_02": "下面列出的費用包括運輸、清關和保險費用，每公斤黃金都要考慮，最低費率將以一公斤的最低重量計算，即使發貨量較低。",
+          "p_03": "時間和成本變量：",
+          "p_03_subtitle_01": "運送到任何國際機場：",
+          "p_03_subtitle_01_option_a": "交貨時間為 24/48 小時",
+          "p_03_subtitle_01_option_b": "375 歐元的運輸、保險和清關費用（不包括任何稅費或增值稅，如果貨物到達的國家適用）。",
+          "p_03_subtitle_01_option_c": "您為黃金留在金庫中的每一天支付押金。這筆押金每天 20 到 30 美元不等，在任何情況下都取決於參考機場的要求。",
+          "p_03_subtitle_02": "送貨到您自己的地址（保險庫、家、銀行等）：",
+          "p_03_subtitle_02_option_a": "送貨時間因送貨地點與最近的國際機場的距離而異，但不會超過 96 小時",
+          "p_03_subtitle_02_option_b": "475 歐元的運輸、保險和清關費用（不包括任何稅費，如果您所在的州適用）。",
+          "p_03_subtitle_02_option_c": "如果由於收件人原因而未交付，貨物將退回最近的保險庫，並且可能會收取新裝運/交付的任何費用。",
+          "p_03_subtitle_03": "在瑞士交付每公斤黃金的運輸費用為 50 歐元，包括運輸和保險費，最低費率將按最低重量一公斤計算，即使發貨量較低。交貨時間在 24 小時內。"
+        }
+      },
+      "AccessAndUseOfTheTradingPlatform": {
+        "block_heading": "交易平台的訪問和使用",
+        "p_01": "在 MTC 網站內的適當表格上註冊後，用戶可以訪問平台。訪問憑據嚴格屬於個人，並且必須由其所有者專門使用。",
+        "p_02": "為此，用戶承諾：",
+        "p_02_note_1": "確保平台的訪問憑證安全。",
+        "p_02_note_2": "通知 MTC 任何未經授權的使用。",
+        "p_03": "如果 MTC 檢測到未經授權和可疑的平台使用，它保留要求用戶更改其登錄憑據或暫停訪問交易平台的權利。",
+        "p_04": "MTC 授予用戶安裝和使用交易平台軟件的許可。此許可證僅授予個人使用。如用戶退出本協議，MTC將撤銷前述許可，不得再使用平台軟件。",
+        "p_05": "除授予用戶的用戶許可外，與交易平台軟件相關的所有權利仍為 MTC 的專有財產。",
+        "p_06": "用戶承認並接受，為了確保交易平台的正常運行，MTC 保留對其進行更改和改進以確保用戶更容易使用的權利。",
+        "p_07": "用戶還承認，如果為了改進平臺本身的操作、質量或功能而需要進行維護、修理、重新配置或更新，則對平台的訪問可能會受到限制。",
+        "p_08": "明確禁止用戶：",
+        "p_08_note_1": "將平台用於非法目的；",
+        "p_08_note_2": "採取任何旨在破壞其功能的行動。"
+      },
+      "IntellectualPropertyRights": {
+        "block_heading": "知識產權",
+        "p_01": "用戶承認與交易平台相關的所有知識產權均歸 MTC 或第三方所有。",
+        "p_02": "明確禁止用戶：",
+        "p_02_note_1": "複製（複製僅允許用於備份目的）、註冊或修改交易平台的任何部分",
+        "p_02_note_2": "除非法律明確允許，否則全部或部分解碼、反彙編或以其他方式嘗試導出交易平台的源代碼",
+        "p_02_note_3": "以任何方式損害或損害我們的任何知識產權。"
+      },
+      "ProtectionOfPersonalDataOnTheSite": {
+        "block_heading": "保護網站上的個人數據",
+        "p_01": "MTC 聲明，在導航和/或使用服務以及本網站的任何其他功能的背景下獲取的用戶個人數據的處理將完全遵守現行的監管義務，並按照中指定的方法和目的進行。用戶聲明已專門查看的隱私政策。"
+      },
+      "UserIdentityVerification": {
+        "block_heading": "用戶身份驗證",
+        "p_01": "MTC 保留要求額外文件的權利，以便確定地驗證用戶的身份。為此，用戶必須提供有效的身份證件。",
+        "p_02": "用戶承認，如果帳戶的所有權應歸屬於不同的人，MTC 將有權要求在這方面整合文件或其他身份證明文件。",
+        "p_03": "應 MTC 的要求，用戶承諾向後者提供必要的數據和文件，以便他能夠確定金屬賬戶和主要往來賬戶的所有權歸屬於同一個人。",
+        "p_04": "用戶接受身份驗證文件必須為英語、意大利語或 MTC 積極支持的語言之一。否則，用戶承諾自費提供經認證的翻譯以及文件本身。"
+      },
+      "VerificationOfTheSourceOfTransfersInTheAccount": {
+        "block_heading": "驗證賬戶中的轉賬來源",
+        "p_01": "MTC 保留在其係統中保存用戶向其賬戶轉賬所產生的銀行詳細信息的權利，以便將其與用戶提供的文件中所示的信息進行比較。"
+      },
+      "RegistrationOfTheUserAccount": {
+        "block_heading": "用戶個人銀行賬戶的註冊可能與賬戶關聯",
+        "p_01": "如果客戶想將平台連接到他自己的活期賬戶，MTC 保留在將用戶提供的文件上顯示的數據與銀行轉賬的數據進行比較後，註冊連接到該賬戶的主要活期賬戶的權利，由後者執行。",
+        "p_02": "系統上記錄的數據（主要往來賬戶的銀行詳細信息）的任何重大錯誤必須立即通知 MTC，並承擔責任。",
+        "p_03": "如果由於從櫃檯向個人往來賬戶轉賬而造成資金損失，如果後者的銀行詳細信息不正確或錯誤地輸入目的地賬戶而轉移加密貨幣時，用戶明確賠償 MTC，我們知道在這種情況下將失去其整體價值而無法取回。",
+        "p_04": "在這方面，MTC 要求用戶仔細檢查銀行詳細信息和加密目標帳戶的代碼詳細信息以進行資金轉移。"
+      },
+      "ChangesToTheMainBankAccount": {
+        "block_heading": "主要銀行賬戶的變化",
+        "p_01": "用戶保留更改其主要活期賬戶詳情的權利。",
+        "p_02": "該請求必須通過發送特定的電子郵件發送給 MTC。",
+        "p_03": "用戶承認，只有當兩個活期賬戶的所有權完全相同且歸屬於同一個人時，MTC 才會考慮變更請求。",
+        "p_04": "MTC 將通過向註冊地址發送電子郵件來確認對主要活期賬戶的更改。"
+      },
+      "ProtectionOfPreciousMetals": {
+        "block_heading": "貴金屬保護",
+        "p_01": "MTC 保證用戶獲得的金屬將在第 5 條“實物黃金交割”規定的時間和方法內實物可用。",
+        "p_02": "貴金屬的形式並保證其純度",
+        "p_03": "MTC 保證用戶購買的金屬經過測試並確認為合格交貨，並且來自專業運營商，符合相關法規。",
+        "p_04": "這種金屬通常以鑄錠的形式銷售，鑄錠上刻有重量和序列號。",
+        "p_05": "金條代表投資黃金，純度至少為99.5%。",
+        "p_06": "金條代表投資黃金，純度等於999.9/1000。",
+        "p_07": "MTC 保證：",
+        "p_07_note_1": "用戶賬戶上的每克黃金對應一克 100% 純金，這是經過測試的 99.5% 純（或更高）金條的一部分",
+        "p_08": "與上述不同，MTC 有責任填補任何空白或更換低於指定標準的材料。",
+        "p_09": "金庫操作員",
+        "p_09_note_1": "經營者是高度專業的法人實體，負責根據相關法律處理金條的接收、儲存和交付。",
+        "p_09_note_2": "MTC用戶購買的金屬存放在MTC指定的專業運營商管理的金庫中； MTC 與這些運營商之間的關係受 MTC 與這些運營商中的每一個簽署的託管協議（以下簡稱“託管協議”）的約束。",
+        "p_09_note_3": "保管庫運營商提供的服務的保管費用由 MTC 全權負責。",
+        "p_10": "MTC 保證：",
+        "p_10_note_1": "用戶擁有的金屬在倉庫保管，不會有重量、負擔、記錄和費用",
+        "p_10_note_2": "它將始終保持完全可用狀態並存放在拱形房間的運營商處，直到根據收到的說明出售或撤回為止。",
+        "p_11": "保險",
+        "p_11_note_1": "MTC 保證對金屬進行盜竊和損壞保險。",
+        "p_11_note_2": "保險費用由 MTC 承擔。",
+        "p_12": "從金庫中取出金屬",
+        "p_12_note_1": "經 MTC 充分識別的用戶有權收回金屬。交付將在用戶指定的地點進行。",
+        "p_12_note_2": "提取實物金屬的費用由用戶承擔，如第 1 條所示。 5“實物黃金交割”。",
+        "p_12_note_3": "實物提取金屬的請求必須直接向 MTC 提出。",
+        "p_12_note_4": "從金庫中提取黃金的數量必須等於或大於 200 克，並以市場上普遍接受的合適尺寸的金條形式進行，由 MTC 自行選擇。"
+      },
+      "Taxation": {
+        "block_heading": "稅收",
+        "p_01": "用戶承認與購買或出售黃金有關的任何稅費或其他稅費將由他自己承擔。"
+      },
+      "LimitationOfLiabilityAndForceMajeure": {
+        "block_heading": "責任限制和不可抗力",
+        "p_01": "用戶承認使用 MTC 提供的服務的風險由他自己承擔。 MTC 對用戶使用所提供的服務所預期、希望或獲得的結果不提供任何具體保證。",
+        "p_02": "用戶聲明並保證對 MTC、其代表、員工、合作者免於承擔任何賠償義務，包括因使用 MTC 提供的服務而對他/她產生的法律費用，並使 MTC 免受傷害。",
+        "p_03": "在這方面，用戶明確賠償 MTC：",
+        "p_03_note_1": "用戶或第三方因用戶提供的服務而遭受或招致的任何經濟損失、金屬價值降低、利潤、費用、成本或責任損失、直接和間接損害。",
+        "p_03_note_2": "因用戶或第三方非法使用服務而引起的投訴、法律訴訟、政府或行政訴訟、損失或損害（包括法律費用和費用）時的任何責任。",
+        "p_03_note_3": "MTC 本身可能因用戶違反這些條件而招致的所有損失、損害、責任、成本、收費和開支，包括任何法律費用，即使在第三方要求賠償損失的情況下任何容量。",
+        "p_04": "如果 MTC 無法提供服務，或者發現自己無法按照承諾提供全部或部分服務，則 MTC 對因不可抗力導致的低效率不承擔任何責任。",
+        "p_05": "MTC 不對用戶承擔任何責任，除非是故意不當行為或重大疏忽，否則會因使用互聯網而導致的效率低下或故障超出其控制範圍。",
+        "p_06": "MTC 也不對用戶因非 MTC 和/或不可抗力原因無法提供服務而遭受的任何類型的直接和/或間接損害、損失和費用承擔責任。"
+      },
+      "MoneyLaundering": {
+        "block_heading": "洗錢",
+        "p_01": "用戶保證：",
+        "p_01_note_1": "通過MTC賬戶用於買賣貴金屬的資金來源合法且非犯罪活動",
+        "p_01_note_2": "MTC提供的貴金屬交易服務，不會被用戶本人用於進行洗錢活動",
+        "p_01_note_3": "所使用的資金已向其居住國和/或國籍的稅務機關正式申報。",
+        "p_02": "為此，用戶將不被允許從第三方賬戶通過電匯購買貴金屬。",
+        "p_03": "用戶承認並接受，如果 MTC 有正當理由相信該賬戶可歸因於非法和/或洗錢活動，後者可以在不通知用戶的情況下通知主管當局，以便他們進行適當的調查。"
+      },
+      "Withdrawal": {
+        "block_heading": "退出",
+        "p_01": "在出售金屬並將相關資金轉移到該帳戶後，用戶將有權隨時通過關閉 MTC 帳戶來退出本合同。"
+      },
+      "ApplicableLawAndJurisdiction": {
+        "block_heading": "適用法律和管轄權",
+        "p_01": "MTC 與用戶之間的條件和關係已經制定並受瑞士法律管轄。",
+        "p_02": "對於 MTC 之間可能出現的與這些條件的有效性、解釋和執行有關的所有爭議，提契諾州法院將擁有專屬管轄權。",
+        "p_03": "如果條件的某些條款被視為無效或不可執行，則在任何情況下，它們都將根據條件的其餘條款以反映 MTC 意圖的方式進行解釋。",
+        "p_04": "除非 MTC 以書面形式明確聲明，否則 MTC 未能行使條件中規定的權利和規定並不構成對相同條件的放棄。"
+      },
+      "Miscellaneous": {
+        "block_heading": "各種各樣的",
+        "p_01": "據了解，如果用戶違反這些條件，MTC 保留暫停或阻止其訪問本網站並可能拒絕進一步訪問的權利。",
+        "p_02": "這些條件的一個或多個條款的無效或無效不會影響其餘條款的有效性，其餘條款在任何情況下都將保持全部效力和有效性。"
+      },
+      "CommunicationsAndComplaints": {
+        "block_heading": "溝通和投訴",
+        "p_01": "與 MTC 的書面通信和任何投訴僅在發送至以下地址 Via Nassa, 17 P.O. 時才被視為有效。 Box 6254 6901 Lugano Switzerland，或通過電子郵件發送至以下地址 {link}。用戶在註冊表中註明他的住所或住所、電話號碼或電子郵件地址，他希望向其發送通訊。"
+      }
+    }
+  },
+  "Trading": {
+    "modals": {
+      "amount": "數量",
+      "buy": "買",
+      "contracts_size": "{size} {symbol} 合約在市場上。",
+      "close_entire_position": "這將以可用的市場價格關閉您的整個頭寸。",
+      "close_position": "平倉",
+      "entry_price": "入場價",
+      "last_price": "最後價格",
+      "limit": "限制",
+      "market_close_pos": "市場關閉此頭寸？",
+      "market_close": "收市",
+      "market_close_position": "收市頭寸",
+      "mark_price": "標記價格",
+      "new": "新的",
+      "oto_info": "Опе-Triggers-the-Other 訂單 (OTO) 允許您同時下一個主訂單和一個二級訂單。",
+      "pending": "待辦的",
+      "stop_loss": "止損",
+      "symbol": "象徵",
+      "sell": "賣",
+      "stop_market": "停止市場",
+      "side": "邊",
+      "take_profit": "從中受益",
+      "trigger": "扳機",
+      "take_profit_market": "獲利市場"
+    },
+    "orderBook": {
+      "order_book": "訂單簿",
+      "amount": "數量",
+      "price": "價格",
+      "total": "全部的"
+    },
+    "orderCreation": {
+      "amount": "數量",
+      "balance": "平衡",
+      "buy": "買",
+      "buy_long": "買入/做多",
+      "borrow": "借",
+      "fee": "費用",
+      "filled": "填充",
+      "limit": "限制",
+      "limit_order": "限制",
+      "last_price": "最後價格",
+      "market_order": "市價單",
+      "mark_price": "標記價格",
+      "post_only": "僅發布",
+      "price": "價格",
+      "qty": "數量",
+      "repay": "償還",
+      "reduce_only": "僅減少",
+      "recent_trades": "近期交易",
+      "stop_limit": "止損限價",
+      "stop_limit_info": "一旦價格達到指定價格就買入或賣出硬幣",
+      "sell": "賣",
+      "sell_short": "賣出/賣空",
+      "symbol": "象徵",
+      "size": "尺寸",
+      "stop": "停止",
+      "stop_loss": "止損",
+      "side": "邊",
+      "tp_sl": "止盈/止盈",
+      "take_profit": "從中受益",
+      "type": "類型",
+      "total": "全部的",
+      "trigger_cond": "觸發條件",
+      "transfer": "轉移"
+    },
+    "recentTrade": {
+      "date_time": "日期和時間",
+      "price": "價格",
+      "qty": "數量",
+      "recent_trades": "近期交易 {pair}"
+    },
+    "tableBlock": {
+      "asset": "資產",
+      "available_balance": "可用餘額",
+      "average": "平均數",
+      "amount": "數量",
+      "all": "全部",
+      "are_you_sure": "您確定要取消所有 {code} 訂單嗎？",
+      "balance": "平衡",
+      "btc_quantity": "比特幣數量",
+      "buy": "買",
+      "cancel_all": "全部取消",
+      "date_time": "約會時間",
+      "date": "日期",
+      "debt": "債務",
+      "equity": "公平",
+      "funds": "資金",
+      "filled": "填充 （％）",
+      "filled_price": "成交價",
+      "fee": "費用",
+      "in_order": "為了",
+      "limit": "限制",
+      "market": "市場",
+      "open_orders": "未結訂單",
+      "order_history": "訂單歷史",
+      "positions": "職位",
+      "pair": "一對",
+      "price": "價格",
+      "quantity": "數量",
+      "quantity_remaining": "剩餘數量",
+      "side": "邊",
+      "status": "地位",
+      "sell": "賣",
+      "trade_history": "貿易歷史",
+      "type": "類型",
+      "total": "全部的",
+      "trigger": "扳機",
+      "day": "日",
+      "week": "星期",
+      "month": "月",
+      "months": "月",
+      "search": "搜索",
+      "status_filled": "填充",
+      "status_canceled": "取消"
+    },
+    "tablesHeaders": {
+      "amount": "數量",
+      "average": "平均數",
+      "all": "全部",
+      "cancel all": "全部取消",
+      "current_price": "當前價格（馬克）",
+      "close_all": "關閉所有頭寸",
+      "close_order_at": "關閉訂單在",
+      "cancel_all": "全部取消",
+      "cancel_all_warning": "您確定要取消所有 {code} 訂單嗎？",
+      "date_and_time": "約會時間",
+      "entry_price": "入場價",
+      "filled_executed": "填充（已執行）",
+      "filled": "填充",
+      "fee": "費用",
+      "liq_price": "清算價格",
+      "limit": "限制",
+      "last_price": "最後價格",
+      "mark_price": "標記價格",
+      "margin_ratio": "保證金比率",
+      "margin": "利潤",
+      "market": "市場",
+      "pnl_roe": "自然語言處理 (ROE%)",
+      "price": "價格",
+      "quantity": "數量",
+      "qty": "數量",
+      "recent_trades": "近期交易",
+      "reduce_only": "僅減少",
+      "realized_profit": "已實現利潤",
+      "stop_loss": "止損",
+      "symbol": "象徵",
+      "size": "尺寸",
+      "side": "邊",
+      "status": "地位",
+      "take_profit": "從中受益",
+      "tp_sl": "止盈/止盈",
+      "type": "類型",
+      "total": "全部的",
+      "trigger_cond": "觸發條件"
+    },
+    "listOfPairs": {
+      "spot": "點",
+      "margin": "利潤",
+      "futures": "期貨",
+      "favorites": "收藏夾",
+      "coin_search": "搜索硬幣名稱",
+      "currency": "貨幣",
+      "contract": "合同",
+      "last_price": "最後價格",
+      "change_24": "24小時變化",
+      "high_24": "24小時高",
+      "low_24": "24小時低",
+      "volume_24": "24小時容量",
+      "trade": "貿易"
+    },
+    "infoOfPairs": {
+      "last_price": "最後價格",
+      "24h_change": "24 小時變化",
+      "24h_high": "24 小時高",
+      "24h_low": "24 小時低",
+      "price_snapshot": "價格快照",
+      "24h_volume": "24 小時容量",
+      "total_buy_volume": "總購買量",
+      "total_sell_volume": "總銷量"
+    }
+  },
+  "UsersPage": {
+    "Navigation": {
+      "dashboard": "儀錶盤",
+      "security": "安全",
+      "identification": "鑑別",
+      "api_management": "API 管理",
+      "settings": "設置"
+    },
+    "ApiManagement": {
+      "api_management": "API 管理",
+      "add_new_api": "添加新的 API 密鑰",
+      "api_key": "API 密鑰",
+      "add_key": "添加密鑰",
+      "action": "行動",
+      "active": "啟用",
+      "active_button": "使能夠",
+      "confirm_remove": "您確定要刪除密鑰嗎？",
+      "confirm_disable": "您確定要禁用密鑰嗎？",
+      "confirm_activate": "您確定要激活密鑰嗎？",
+      "disabled": "已禁用",
+      "disabled_button": "禁用",
+      "key_name": "鍵名",
+      "list_of_api": "API 密鑰列表",
+      "name_length": "名稱應最少 4 個，最多 50 個符號",
+      "name": "名稱",
+      "permission": "允許：",
+      "permissions": "權限",
+      "read_create": "閱讀與創作",
+      "read_only": "只讀",
+      "status": "地位",
+      "withdraw": "提取："
+    },
+    "Dashboard": {
+      "account_balance": "賬戶餘額：",
+      "assets_without_equivalent": "圖表中未顯示沒有等值 BTC 價值的資產",
+      "balance_details": "餘額詳情",
+      "btc": "比特幣",
+      "dashboard": "儀錶盤",
+      "derivatives": "衍生品",
+      "estimated_value": "估計的價值：",
+      "info_text": "未經驗證的用戶將無法提現超過 5,000 USDT",
+      "futures": "期貨",
+      "hide_balance": "隱藏餘額",
+      "last_login": "上次登錄時間 {value}",
+      "margin": "利潤",
+      "p2p": "點對點",
+      "spot": "點",
+      "show_balance": "顯示余額",
+      "user_id": "用戶身份：",
+      "DownPanel": {
+        "maker": "製作者",
+        "input_text": "使用 {name} 支付費用（ {value}% 折扣）",
+        "taker": "接受者",
+        "cryptocurrency": "加密貨幣",
+        "fee": "費用",
+        "Modal": {
+          "title": "您確定不想使用 {name} 支付費用嗎？",
+          "text": "如果您關閉此功能，您將不會獲得交易費用折扣。",
+          "keep_it_on": "繼續",
+          "off": "離開"
+        }
+      }
+    },
+    "Identification": {
+      "country": "國家",
+      "city": "城市",
+      "clicking_here": "點擊這裡",
+      "driver_license": "駕駛執照",
+      "date_of_birth": "出生日期",
+      "delete_files_by": "您也可以通過以下方式刪除文件",
+      "day": "日",
+      "email": "電子郵件",
+      "first_name": "名",
+      "identification": "鑑別",
+      "jpg_png": ". .jpg PNG",
+      "last_name": "姓",
+      "month": "月",
+      "national_identity_card": "國民身份證",
+      "post_code": "郵政編碼",
+      "phone": "電話",
+      "passport": "護照",
+      "save": "保存",
+      "state": "狀態",
+      "street_address": "街道地址",
+      "status": "地位",
+      "upload_files_by": "您也可以通過以下方式上傳文件",
+      "upload_picture": "請上傳最大 3 MB 的圖片",
+      "picture_format_error": "請上傳 .png 或 .jpg 文件",
+      "year": "年"
+    },
+    "RewardCenter": { "reward_center": "獎勵中心" },
+    "Security": {
+      "confirm_password": "確認密碼",
+      "code": "代碼",
+      "code_error": "請輸入一個 6 位數的驗證碼。",
+      "do_not_match": "密碼不匹配。",
+      "enable_2fa": "啟用 2FA",
+      "google_authentication": "谷歌認證",
+      "google_authenticator_code": "Google 身份驗證器代碼 (2FA)",
+      "increase_your_security": "提高您的帳戶安全性",
+      "log_in": "登錄",
+      "new_password": "新密碼",
+      "password": "密碼",
+      "please_enter_code": "請輸入代碼。",
+      "recommend_yubiKey": "推薦 YubiKey",
+      "reset_password": "重設密碼",
+      "security": "安全",
+      "security_key": "安全密鑰",
+      "setup": "設置",
+      "save": "保存",
+      "to_disable_2fa": "要禁用 2FA 輸入代碼",
+      "to_enable_2fa": "要啟用 2FA，請下載並安裝 Google Authenticator。您可以下載的 Google 身份驗證器應用程序：",
+      "turn_on_withdraw": "開通提現",
+      "twofa": "2FA",
+      "used_for_withdrawals": "用於提款和安全修改",
+      "verify": "核實",
+      "what_is_security": "什麼是安全密鑰？",
+      "withdraw_api": "提現和API",
+      "AntiphishingBlock": {
+        "title": "反釣魚短語",
+        "btn_enable": "使能夠",
+        "btn_disable": "禁用",
+        "phrase_enabled": "反釣魚短語已啟用。",
+        "phrase_note": "添加特殊短語以防止來自虛假網站和電子郵件地址的網絡釣魚嘗試",
+        "phrase_placeholder": "密語",
+        "phrase_error": "短語不應為空或超過 200 個符號。"
+      }
+    }
+  },
+  "Wallets": {
+    "Airdrop": {
+      "airdrop": "空投",
+      "airdrop_wallet": "空投錢包",
+      "airdrop_balance": "空投餘額",
+      "token_amount": "jTESTA 數量",
+      "total_devident": "總空投",
+      "tokens_total": "jTESTA 總量",
+      "deg_jtesta": "佔 jTESTA 的百分比",
+      "transaction_history": "交易記錄"
+    },
+    "Futures": {
+      "assets": "資產",
+      "collaterals": "抵押品",
+      "entry_price": "入場價",
+      "margin_balance": "保證金餘額",
+      "mark_price": "標記價格",
+      "pnl_analysis": "盈虧分析",
+      "symbol": "象徵",
+      "size": "尺寸",
+      "total_cross_collateral": "總交叉抵押品",
+      "total_interest": "總利息",
+      "total_borrowed": "借款總額",
+      "unrealized_pnl": "未實現盈虧",
+      "unrealized_pnl_reo": "未實現盈虧 (REO%)"
+    },
+    "Margin": {
+      "borrowed": "借來的",
+      "borrow_repay": "借/還",
+      "equity_value_btc": "股本價值 (BTC)",
+      "interes": "興趣"
+    },
+    "Spot": {
+      "Options": { "deposit": "訂金", "withdraw": "提取" },
+      "CryptoWithdraw": {
+        "heading": "總餘額：",
+        "mtcg_withdraw_note": "MTCG是平台的內部貨幣，您可以將其兌換成您方便的其他貨幣並提取。",
+        "exchange_link_btn": "去交易所",
+        "form": {
+          "adress_label": "收款地址",
+          "adress_placeholder": "錢包地址",
+          "comission_info": "本次提款佣金：{code}%",
+          "adress_error": "請輸入錢包地址。",
+          "amount_label": "數量",
+          "amount_error": "請輸入有效金額。",
+          "amount_sum_error": "金額不能大於您的餘額且小於：",
+          "submit_btn": "提交"
+        },
+        "fiatForm": {
+          "adress_label": "收款地址",
+          "adress_placeholder": "錢包地址",
+          "comission_info": "本次提款佣金：{code}%",
+          "adress_error": "請輸入錢包地址。",
+          "amount_label": "數量",
+          "amount_error": "請輸入有效金額。",
+          "amount_sum_error": "金額不能大於您的餘額且小於：",
+          "submit_btn": "提交",
+          "payment_system_label": "支付系統",
+          "payment_system_default": "選擇支付系統",
+          "payment_system_error": "請選擇支付系統。",
+          "payment_account_info": "您在所選系統中的個人帳號。"
+        },
+        "table": {
+          "heading": "最近提款記錄",
+          "th_date_time": "約會時間",
+          "th_status": "完全的",
+          "th_coin": "硬幣",
+          "th_amount": "數量",
+          "th_address": "地址",
+          "th_hash": "哈希",
+          "th_information": "信息",
+          "item_heading": "歷史",
+          "item_date_time": "約會時間",
+          "item_status": "完全的",
+          "item_coin": "硬幣",
+          "item_amount": "數量",
+          "item_information": "信息"
+        },
+        "withdraw_gold": {
+          "title": "黃金提款請求",
+          "gold_rate": "當前黃金匯率：",
+          "form_subtitle": "將貨物交付給的人",
+          "quantity": "數量",
+          "quantity_error": "數量必須是 100 的倍數。",
+          "quantity_sum_error": "數量不能超過您的餘額。",
+          "final_destination": "最終目的地",
+          "airport": "國際機場",
+          "swiss_country": "瑞士國家",
+          "delivery_price": "送貨價格",
+          "comission": "委員會",
+          "total": "全部的",
+          "country": "國家",
+          "country_error": "請正確輸入國家",
+          "city": "城市",
+          "city_error": "請正確輸入城市",
+          "street": "街道",
+          "street_error": "請正確輸入街道",
+          "house": "屋",
+          "house_error": "請正確輸入房屋",
+          "postal_code": "郵政編碼",
+          "postal_code_error": "請正確輸入郵政編碼",
+          "room": "房間",
+          "room_error": "請正確輸入房間",
+          "name": "全名",
+          "name_error": "請正確輸入名稱。",
+          "email": "電子郵件",
+          "email_error": "請輸入正確的電子郵件。",
+          "phone": "電話",
+          "photo": "照片",
+          "photo_error": "請添加接收者照片。",
+          "photo_format_error": "請上傳 .png 或 .jpg 文件",
+          "photo_size_note": "請上傳最大 3 MB 的圖片",
+          "photo_size_error": "請上傳最大 3 MB 的圖片",
+          "delete_files_by": "您也可以通過以下方式刪除文件",
+          "upload_files_by": "您也可以通過以下方式上傳文件",
+          "clicking_here": "點擊這裡",
+          "allowed_formats": ". .jpg PNG",
+          "submit_btn": "發送請求",
+          "comment": "評論",
+          "comment_placeholder": "您可以在此處添加評論或備註",
+          "submit_btn_error": "部分字段填寫不正確，請檢查。",
+          "select_country": "選擇一個國家",
+          "select_airport": "選擇機場",
+          "DeliveryInfo": {
+            "limit_title": "黃金交割的最小數量為 100 克。",
+            "limit_info": "下面列出的費用包括：運輸、清關和保險，每運輸一公斤黃金，即使貨物更輕，最低費率也將按一公斤的最低重量計算。",
+            "delivery_price_note": "時間和成本變量：",
+            "airport_delivery": "運送到任何國際機場：",
+            "airport_info": "- 交貨時間為 24/48 小時 - 運輸、保險和清關費用為 375 歐元（不包括任何稅費，如果貨物到達的國家/地區適用）。 - 您為黃金留在金庫/洞穴中的每一天支付押金。這筆押金每天 20 到 30 美元不等，在任何情況下都取決於參考機場的要求。",
+            "own_adress": "送貨到您自己的地址（保險庫、家、銀行等）：",
+            "own_adress_note_1": "- 送貨時間因送貨地點與最近的國際機場的距離而異，但不會超過 96 小時。",
+            "own_adress_note_2": "- 475 歐元的運輸、保險和清關費用（不包括任何稅費，如果您所在的國家/地區適用）。",
+            "own_adress_note_3": "- 若因收件人原因未能送達，貨物將退回最近的保險庫或國際機場，可能會收取新的裝運/交付的任何費用。",
+            "swiss_delivery_info": "在瑞士交付每公斤黃金的運輸費用為 50 歐元，包括運輸和保險費，最低費率將按最低重量一公斤計算，即使發貨量較低。交貨時間在 24 小時內"
+          },
+          "Gold_table": {
+            "heading": "近期黃金回撤歷史",
+            "th_date_time": "約會時間",
+            "th_status": "地位",
+            "th_quantity": "數量",
+            "th_total_comission": "總佣金",
+            "th_adress": "地址",
+            "th_name": "名稱",
+            "item_date_time": "約會時間",
+            "item_status": "地位",
+            "item_quantity": "數量",
+            "item_total_comission": "總佣金",
+            "item_adress": "地址",
+            "item_name": "名稱"
+          }
+        }
+      },
+      "CryptoDeposit": {
+        "total_balance": "總餘額：",
+        "recent_deposit_history": "近期存款記錄",
+        "commission_note": "入金佣金：{code}%",
+        "Tips": {
+          "title": "尖端",
+          "tip_first": "如果您已經存款，請注意我們發送給您的短信、站內信件和電子郵件。",
+          "tip_second": "硬幣將在 {code} 網絡確認後存入。",
+          "tip_third": "在 {code} 確認之前，您的等量資產將暫時無法提款。",
+          "tip_fourth": "隔離見證（SegWit）是一種比特幣協議升級，提供更低的交易費用和更快的交易。"
+        },
+        "Adress": {
+          "title": "地址",
+          "adress_rule": "僅向此存款地址發送 {code}。",
+          "adress_note": "向此地址發送除 {code} 以外的硬幣或代幣可能會導致您的存款丟失。"
+        },
+        "Form": {
+          "payment_system_default": "選擇支付系統",
+          "payment_system_label": "選擇支付系統",
+          "payment_system_error": "請選擇支付系統",
+          "amount": "數量",
+          "amount_error": "金額總和應大於 0。",
+          "submit_btn": "提交",
+          "payment_window_note": "如果您的瀏覽器阻止了付款窗口 {link} 將其打開。",
+          "payment_window_link": "單擊此處"
+        },
+        "GoldDepositForm":{
+          "payment_system_default": "選擇支付系統",
+          "payment_system_label": "選擇支付系統",
+          "payment_system_error": "請選擇支付系統",
+          "amount": "數量",
+          "amount_error": "金額總和應大於 0。",
+          "submit_btn": "提交",
+          "payment_currency_default": "貨幣",
+          "payment_currency_label": "選擇支付貨幣",
+          "payment_currency_error": "請選擇貨幣",
+          "deposit_comission": "{crypto}存款佣金 ：{fee}%",
+          "amount_to_be_credited": "要記入的金額：{amount} 克",
+          "amount_to_be_credited_mtcg": "要記入的金額：{amount} {crypt}",
+          "current_rate": "當前匯率：1 克黃金 = {rate} {currency}",
+          "current_rate_mtcg": "當前匯率：1 MTCG = {rate} {currency}",
+          "currency_equivalent":"等值貨幣：{equivalent}",
+          "payment_window_note": "如果您的瀏覽器阻止了付款窗口 {link} 將其打開。",
+          "payment_window_link": "單擊此處"
+        }
+      },
+      "FiatDeposit": {
+        "download_invoice": "下載發票",
+        "generate_invoice": "生成發票",
+        "minimum_deposit": "最低存款額為 {value}"
+      },
+      "FiatDepositForm": {
+        "form_title": "卡詳情",
+        "form_note": "我們不考慮您銀行的佣金",
+        "card_label": "卡號",
+        "card_error": "卡號必須包含 16 位數字。",
+        "cardholder_label": "持卡人姓名",
+        "cardholder_placeholder": "持卡人姓名",
+        "cardholder_error": "請正確輸入名稱。",
+        "expiry_label": "到期日",
+        "expiry_error": "允許的格式為 mm/yy",
+        "cvv_label": "CVV / CVC 代碼",
+        "cvv_placeholder": "CVV / CVC 代碼",
+        "cvv_error": "請正確輸入cvv/cvc代碼",
+        "submit_btn": "發送請求",
+        "sumbit_error": "請正確填寫所有必填字段。"
+      }
+    },
+    "show_balance": "顯示余額",
+    "hide_balance": "隱藏餘額",
+    "2fa": "Google 身份驗證器代碼 (2FA)",
+    "code": "代碼",
+    "amount": "數量",
+    "available": "可用的",
+    "available_balance": "可用餘額",
+    "action": "行動",
+    "address": "地址",
+    "borrow": "借",
+    "buy": "買",
+    "balance": "平衡",
+    "btc": "比特幣",
+    "cross": "叉",
+    "copy": "複製",
+    "crypto_fiat_balance": "加密貨幣/法定貨幣餘額",
+    "coin": "硬幣",
+    "comment": "評論",
+    "currency": "貨幣",
+    "date": "日期",
+    "date_time": "約會時間",
+    "deposit": "訂金",
+    "deposit_withdraw": "存款/取款",
+    "estimated_availbale_balance": "估計可用餘額：",
+    "from": "從",
+    "futures": "期貨",
+    "fee": "費用",
+    "funds": "資金",
+    "generate": "產生",
+    "hide_low_balance": "隱藏低餘額資產和債務",
+    "hide": "隱藏",
+    "isolated": "隔離的",
+    "information": "信息",
+    "in_order": "為了",
+    "locked": "鎖定",
+    "margin": "利潤",
+    "margin_history": "保證金歷史",
+    "memo": "備忘錄",
+    "profit_loss": "利潤損失",
+    "positions": "職位",
+    "p2p": "點對點",
+    "pair": "一對",
+    "quantity": "數量",
+    "qty": "數量",
+    "repay": "償還",
+    "spot": "點",
+    "spot_wallet": "現貨錢包",
+    "since_data": "由於 {data}",
+    "show": "表演",
+    "sell": "賣",
+    "status": "地位",
+    "submit": "提交",
+    "to": "至",
+    "transfer": "轉移",
+    "today": "今天",
+    "transaction_history": "交易記錄",
+    "total": "全部的",
+    "total_balance": "總餘額",
+    "type": "類型",
+    "trade": "貿易",
+    "fiat_trade_warning": "法定貨幣不能交易。",
+    "transfers": "轉移",
+    "view_details": "查看詳情",
+    "withdrawal": "提取",
+    "status_type": {
+      "confirmed": "確認的",
+      "unconfirmed": "未經證實",
+      "completed": "完全的",
+      "pending": "待辦的",
+      "waiting": "等待",
+      "processing": "加工",
+      "processed": "處理",
+      "canceled": "取消",
+      "rejected": "拒絕了",
+      "in_progress": "進行中",
+      "not_status": "不是狀態"
+    }
+  }
+}

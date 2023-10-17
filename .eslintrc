@@ -1,0 +1,111 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "react-app",
+    "airbnb",
+    "plugin:import/errors",
+    "plugin:react/recommended",
+    "plugin:jsx-a11y/recommended",
+    "prettier",
+    "plugin:prettier/recommended",
+    "prettier/react"
+  ],
+  "plugins": ["react", "import", "prettier", "jsx-a11y"],
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true,
+    "jest": true
+  },
+  "rules": {
+    "jsx-a11y/no-distracting-elements": [
+      1,
+      {
+        "elements": ["marquee", "blink"]
+      }
+    ],
+    "consistent-return": 0,
+    "no-control-regex": 1,
+    "import/no-cycle": 1,
+    "no-multi-assign": 1,
+    "camelcase": 1,
+    "prefer-const": 1,
+    "react/prop-types": 1,
+    "no-useless-escape": 0,
+    "no-shadow": 1,
+    "no-restricted-globals": 1,
+    "react/button-has-type": 1,
+    "react/no-access-state-in-setstate": 1,
+    "react/no-did-update-set-state": 1,
+    "react/no-array-index-key": "warn",
+    "react/jsx-props-no-spreading": 1,
+    "import/prefer-default-export": 0,
+    "jsx-a11y/label-has-associated-control": 1,
+    "jsx-a11y/no-static-element-interactions": 1,
+    "jsx-a11y/no-noninteractive-element-interactions": 1,
+    "jsx-a11y/click-events-have-key-events": 1,
+    "jsx-a11y/iframe-has-title": 1,
+    "no-return-assign": 1,
+    "new-cap": 1,
+    "jsx-a11y/anchor-is-valid": 0,
+
+    "no-nested-ternary": 0,
+    "no-underscore-dangle": 0,
+    "no-dupe-keys": 1,
+    "no-console": 1,
+    "linebreak-style": ["error", "unix"],
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [".js", ".jsx"]
+      }
+    ],
+    "jsx-a11y/no-onchange": 0,
+    "no-unused-vars": 0,
+    "import/no-extraneous-dependencies": 0,
+    "react/destructuring-assignment": [
+      1,
+      "always",
+      {
+        "ignoreClassFields": true
+      }
+    ],
+    "react/static-property-placement": [1, "static public field"],
+    "react/state-in-constructor": [1, "never"],
+    "react/no-unescaped-entities": 1,
+    "react/no-unused-state": 1,
+    "react/no-this-in-sfc": 1,
+    "no-param-reassign": 1,
+    "react/no-string-refs": "warn",
+    "react/sort-comp": [
+      1,
+      {
+        "order": [
+          "static-methods",
+          "static-variables",
+          "instance-variables",
+          "lifecycle",
+          "everything-else",
+          "render"
+        ]
+      }
+    ]
+  },
+  "globals": {
+    "window": true,
+    "document": true,
+    "localStorage": true,
+    "FormData": true,
+    "FileReader": true,
+    "Blob": true,
+    "navigator": true
+  }
+}

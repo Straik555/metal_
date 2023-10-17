@@ -1,0 +1,14 @@
+@import './datepicker.css';
+@import './market.min.css';
+/* @import './market_old.min.css'; */
+/* @import './new_main_old.min.css'; */
+@import './new_main.min.css';
+/* @import '../../../node_modules/react-notifications/dist/react-notifications.css'; */
+@import './react-notifications.css';
+
+.label-border-color{
+    border-color: red;
+}
+.message-kyc{
+    margin-top: 60px;
+}

@@ -1,0 +1,1307 @@
+{
+  "Notifications": {
+    "success": "Succès",
+    "money_error": "Pas assez d'argent",
+    "common_error": "Une erreur s'est produite. Veuillez réessayer",
+    "Withdraw": {
+      "title": "Retirer",
+      "withdraw_success": "Votre demande de retrait est créée avec succès",
+      "withdraw_gold_request_success": "Votre demande de retrait d'or est créée avec succès",
+      "withdraw_error_fee": "Montant saisi inférieur aux frais de transaction",
+      "withdraw_error_adress": "Vous avez entré une adresse invalide",
+      "withdraw_server_overloaded": "Le serveur est surchargé, veuillez réessayer dans quelques minutes",
+      "withdraw_server_error": "Des problèmes sont survenus sur le serveur, veuillez réessayer",
+      "common_error": "Une erreur s'est produite. Veuillez réessayer"
+    },
+    "Deposit": {
+      "title": "Dépôt",
+      "adress_creating_success": "Adresse créée avec succès",
+      "adress_creating_error": "Le dépôt est désactivé"
+    },
+    "Exchange": {
+      "title": "Échange instantané",
+      "exchange_success": "Vous avez échangé avec succès",
+      "exchange_server_error": "Des problèmes sont survenus sur le serveur, veuillez réessayer dans quelques minutes.",
+      "exchange_limit_error": "La limite minimale est {code} .",
+      "exchange_rate_error": "Le taux de change n'est pas disponible.",
+      "exchange_balance_error": "Vous n'avez pas assez d'argent.",
+      "exchange_common_error": "Une erreur s'est produite. Veuillez réessayer."
+    },
+    "Auth": {
+      "ChangePassword": {
+        "title": "Changement de mot de passe",
+        "change_success": "Succès. Vous avez récupéré le mot de passe avec succès"
+      },
+      "ResetPassword": {
+        "title": "Réinitialiser le mot de passe",
+        "reset_success": "Succès. Vous avez réinitialisé le mot de passe avec succès",
+        "authenticator_2fa_error": "Le code d'authentification Google (2FA) est requis",
+        "email_is_not_registered": "Erreur. Cet e-mail n'est pas enregistré",
+        "email_incorrect": "Vous avez entré un e-mail incorrect"
+      },
+      "SignUp": {
+        "title": "S'inscrire",
+        "register_success": "Vous vous êtes bien inscrit. Vérifiez votre e-mail",
+        "register_email_error": "Erreur. Cet e-mail est déjà enregistré",
+        "register_common_error": "Quelque chose s'est mal passé. Veuillez réessayer."
+      },
+      "VerifyIP": {
+        "title": "Vérifier l'IP",
+        "verify_success": "Vous avez vérifié avec succès votre IP",
+        "wrong_code": "Vous avez entré un mauvais code. Réessayer.",
+        "recent_code_message": "Vérifier le courriel"
+      },
+      "Login": {
+        "title": "Connexion",
+        "email_confrim_success": "Votre email a été confirmé avec succès",
+        "email_confrim_warning": "Votre email a déjà été confirmé.",
+        "authenticator_2fa_error": "Vous devez remplir le champ 2FA",
+        "error_credentials": "Erreur. Les données sont incorrectes",
+        "error_email_confirm": "Erreur. Vous devez confirmer votre e-mail",
+        "error_totp_code": "Erreur. Les données sont incorrectes",
+        "error_email_not_registered": "Cet email n'est pas enregistré",
+        "error_blocked": "Vous avez été bloqué par l'administrateur"
+      }
+    },
+    "Pairs": {
+      "common_error": "Une erreur s'est produite. Veuillez réessayer."
+    },
+    "Settings": {
+      "API": {
+        "title": "FEU",
+        "key_creating_success": "Succès. La clé API est créée",
+        "key_deleting_success": "Succès. La clé API est supprimée"
+      },
+      "Dashboard": {
+        "common_error": "Une erreur s'est produite. Veuillez réessayer."
+      },
+      "Identification": {
+        "title": "Identification",
+        "updating_success": "Données utilisateur mises à jour",
+        "error_uploading_photo": "Veuillez télécharger une photo",
+        "error_already_verified": "Utilisateur déjà vérifié",
+        "error_file_updating": "Fichier non mis à jour, utilisateur déjà vérifié",
+        "error_file_deleting": "Fichier non mis à jour, utilisateur déjà vérifié",
+        "error_fields": "Veuillez remplir correctement tous les champs obligatoires"
+      },
+      "Security": {
+        "title": "Sécurité",
+        "success_password_change": "Succès. votre mot de passe a été changé",
+        "error_data_incorrect": "Erreur. Les données sont incorrectes"
+      }
+    },
+    "Support": { "sending_success": "Succès. Votre message a été envoyé." },
+    "Fiat": {
+      "title": "Dépôt",
+      "invoice_success": "Votre facture est créée avec succès. Vous pouvez le télécharger maintenant",
+      "invoice_verify_error": "Vous devez vérifier votre compte",
+      "small_amount_to_deposit": "Montant trop petit pour effectuer un dépôt.",
+      "request_success": "Votre demande a été créée avec succès"
+    },
+    "MarginRepay": {
+      "amount_balance_error": "Le montant est supérieur au solde disponible !",
+      "amount_value_error": "Entrez la valeur du montant !"
+    },
+    "MarkretOrder": {
+      "title": "La commande a échoué",
+      "funds_error": "Pas assez de fonds"
+    }
+  },
+  "Auth": {
+    "ForgotPassword": {
+      "enter_email": "Entrez l'e-mail pour réinitialiser le mot de passe.",
+      "enter_valid_email": "Entrez l'e-mail valide.",
+      "next": "Suivant",
+      "reset_login_password": "Réinitialiser le mot de passe de connexion"
+    },
+    "Login": {
+      "enter_valid_email": "Entrez une adresse email valide",
+      "email": "E-mail",
+      "error_password": "Le mot de passe doit comporter au moins 8 caractères en utilisant 1 lettre minuscule, 1 lettre majuscule, 1 chiffre et 1 symbole et un maximum de 25 caractères",
+      "forgot_password": "Mot de passe oublié?",
+      "signIn": "S'identifier",
+      "password": "Mot de passe",
+      "remember_me": "Souviens-toi de moi"
+    },
+    "NewIpLogger": {
+      "check_your_email": "Vérifiez votre e-mail",
+      "code": "Code",
+      "didnt_get_code": "Vous n'avez pas de code ? S'il vous plaît, attendez quelques minutes.",
+      "if_you_didnt_get": "Si vous n'avez pas obtenu de code à 6 chiffres, appuyez sur",
+      "login_new_device": "Vous êtes connecté avec un nouvel appareil. Veuillez saisir le code à 6 chiffres que nous vous avons envoyé par e-mail",
+      "resend_code": "renvoyer le code"
+    },
+    "RecoveryPassword": {
+      "confirm_password": "Confirmez le mot de passe",
+      "error_password": "Le mot de passe doit comporter au moins 8 caractères en utilisant 1 lettre minuscule, 1 lettre majuscule, 1 chiffre et 1 symbole et un maximum de 25 caractères",
+      "new_password": "Nouveau mot de passe",
+      "password_recovery": "Récupération de mot de passe",
+      "passwords_not_match": "Les mots de passe ne correspondent pas.",
+      "save": "Sauvegarder"
+    },
+    "SignupPage": {
+      "already_registered": "Déjà enregistré?",
+      "create_free_account": "Créer un compte gratuit",
+      "create_account": "Créer un compte",
+      "email": "E-mail",
+      "email_error": "Entrez une adresse email valide",
+      "error_password": "Le mot de passe doit comporter au moins 8 caractères en utilisant 1 lettre minuscule, 1 lettre majuscule, 1 chiffre et 1 symbole et un maximum de 25 caractères",
+      "i_have_read": "j'ai lu et accepté les",
+      "password": "Mot de passe",
+      "please_agree": "Veuillez accepter les termes et conditions",
+      "terms_conditions": "Conditions de MetalTrading",
+      "welcome": "Bienvenue dans le commerce des métaux"
+    }
+  },
+  "Base": {
+    "Modals": {
+      "Captcha": {
+        "platform": "MTC",
+        "slide_text": "Faites glisser pour terminer le puzzle",
+        "text": "Négociez n'importe où avec nous"
+      },
+      "ModalMargin": {
+        "MarginTransfer": { "margin_transfers": "Transferts de marge" },
+        "MarginBorrow": {
+          "borrowed": "Emprunté",
+          "confirm_borrow": "Confirmer l'emprunt",
+          "error_title": "Emprunt sur marge",
+          "hourly_inrerest_rate": "Taux d'intérêt horaire",
+          "interest_text": "Un intérêt d'une heure s'accumulera dès que les jetons sont empruntés et il continuera à s'accumuler toutes les heures",
+          "maximum_borrow": "Montant d'emprunt maximal"
+        },
+        "Repay": {
+          "borrowed_b": "Emprunté (B) :",
+          "confirm_repayment": "Confirmer le remboursement",
+          "interest_a": "Intérêt (A) :",
+          "interest_text": "Un intérêt d'une heure s'accumulera dès que les jetons sont empruntés et il continuera à s'accumuler toutes les heures",
+          "select_asset": "Sélectionnez l'élément",
+          "total_debt": "Dette totale (A + B) :",
+          "you_borrowed": "Vous n'avez encore emprunté aucun {code}."
+        }
+      },
+      "ModalFutures": { "error_title": "Transferts à terme" },
+      "higherThanPrice": "Le prix de votre commande est supérieur de 5% ou plus au dernier prix du marché.",
+      "lessThanPrice": "Le prix de votre commande est inférieur de 5% ou plus au dernier prix du marché.",
+      "amount_is_bigger": "Le montant est supérieur au solde disponible !",
+      "confirm_transfer": "Confirmer le transfert",
+      "enter_amount": "Entrez la valeur du montant !",
+      "futures_wallet": "Portefeuille à terme",
+      "margin_wallet": "Portefeuille de marge",
+      "spot_wallet": "Portefeuille Spot"
+    }
+  },
+  "BuyCrypto": {
+    "amount": "Montant",
+    "available_balance": "Solde disponible",
+    "buy": "Acheter",
+    "date_time": "Date et heure",
+    "exchange_history": "Historique des échanges",
+    "exchange": "Échange",
+    "fee": "FRAIS",
+    "hours_change": "Changement de 24 heures",
+    "instant_exchange": "Échange instantané",
+    "pair": "Paire",
+    "rate": "Taux",
+    "sell": "Vendre",
+    "total": "Le total",
+    "buy_error": "La somme d'achat ne peut pas être supérieure à votre solde ou à 0.",
+    "sell_error": "La somme de vente ne peut pas être supérieure à votre solde ou à 0.",
+    "sell_invalid_value": "Veuillez saisir une valeur valide.",
+    "comission_info": "Commission pour cet échange :",
+    "amount_info": "Montant à créditer :"
+  },
+  "Footer": {
+    "privacy_policy": "Politique de confidentialité",
+    "terms_of_use": "Conditions d'utilisation",
+    "FAQs": "FAQ",
+    "about_us_link": "À propos de nous",
+    "contact_us_link": "Nous contacter"
+  },
+  "Global": {
+    "cancel": "Annuler",
+    "confirm": "Confirmer",
+    "confirm_payment": "Confirmer le paiement",
+    "delete": "Effacer",
+    "login": "Connexion",
+    "do_login": "Connexion",
+    "nothing": "Rien à montrer",
+    "no_fav": "Aucun favori trouvé",
+    "search_email": "Chercher un email",
+    "no": "Non",
+    "or": "ou alors",
+    "off": "Désactivé",
+    "on": "Au",
+    "submit": "Soumettre",
+    "sign_up": "S'inscrire",
+    "do_sign_up": "S'inscrire",
+    "to_trade": "commercer",
+    "yes": "Oui",
+    "nothing_to_show": "Rien à montrer"
+  },
+  "HomePage": {
+    "AdvantagesSection": {
+      "title": "Reste en contact. Toujours à tes côtés.",
+      "subtitle": "Exemple de texte, ne pas traduire.",
+      "support_time": "Assistance 24h/24 et 7j/7",
+      "support_text": "Besoin de notre aide ? Nous sommes prêts à résoudre votre problème.",
+      "support_link": "Support",
+      "community_heading": "Communauté",
+      "community_text": "Rejoignez la conversation dans notre communauté mondiale."
+    },
+    "CoinSection": {
+      "24h_change": "Changement de 24 heures",
+      "buy_now": "Acheter maintenant"
+    },
+    "CardSection": {
+      "title": "Négociez n'importe où avec nous",
+      "subtitle": "Toute la puissance de l'échange de crypto-monnaie Metal Trading Company, dans la paume de votre main. Téléchargez l'application de trading crypto mobile Metal Trading Company dès aujourd'hui."
+    },
+    "HomeSection": {
+      "platform": "Société de négoce de métaux",
+      "title_info": "Metal Trading Company est une plateforme d'échange de crypto-monnaie semi-décentralisée. La sécurité est notre priorité absolue et nous visons à fournir un environnement sûr et fiable pour échanger des crypto-monnaies.",
+      "trade_now": "Échangeons maintenant"
+    },
+    "PageSection": {
+      "title": " La plateforme de crypto-monnaie la plus fiable",
+      "subtitle": "Voici les raisons pour lesquelles vous devriez rejoindre Metal Trading Company",
+      "secure_storage_1": "Technologie de portefeuille sécurisé",
+      "secure_info_1": "Stockez votre crypto-monnaie dans nos portefeuilles développés par les meilleurs experts en sécurité.",
+      "secure_storage_2": "Gamme de produits innovante",
+      "secure_info_2": "Découvrez toutes nos options de crypto-monnaie, telles que le trading au comptant et sur dérivés, les emprunts, les prêts et les portefeuilles en chaîne, les pools de minage, etc.",
+      "secure_storage_3": "Clientèle mondiale",
+      "secure_info_3": "Rejoignez notre communauté grandissante d'utilisateurs à travers le monde."
+    },
+    "TradeCryptoSection": {
+      "title": "Échangez des cryptos en quelques minutes",
+      "subtitle": "Metal Trading Company prend en charge une variété de crypto-monnaies.",
+      "register_account": "Créer un compte",
+      "register_text": "Enregistrez un compte chez Metal Trading Company et commencez à trader",
+      "deposit_heading": "Dépôt",
+      "deposit_info": "Déposez BTC pour échanger contre d'autres crypto-monnaies",
+      "orders_heading": "Ordres d'achat et de vente",
+      "orders_info": "Ordres d'achat et de vente en temps réel avec un moteur de trading robuste"
+    },
+    "StatisticSection": {
+      "cryptocurrency_exchanged": "Crypto-monnaie échangée",
+      "countries_supported": "Pays pris en charge",
+      "customers_served": "Clients servis"
+    }
+  },
+  "Header": {
+    "SelectAnalytics": {
+      "analytics": "Analytique",
+      "copy_trading": "Commerce de copie",
+      "value_analytics": "Analyse de la valeur"
+    },
+    "SelectBuyCrypto": {
+      "P2P": "P2P",
+      "buy_crypto": "Acheter des cryptos",
+      "bank_transfer": "Virement",
+      "exchange": "Échange"
+    },
+    "SelectContracts": {
+      "contract": "Contracter",
+      "change": "Changer",
+      "last_price": "Dernier prix",
+      "volume": "Volume (24h)"
+    },
+    "SelectDownload": {
+      "app_store": "Magasin d'applications",
+      "android": "Android"
+    },
+    "SelectOrders": {
+      "P2P_orde": "Commande P2P",
+      "derivative_order": "Ordre dérivé",
+      "futures_order": "Commande à terme",
+      "margin_order": "Ordre de marge",
+      "orders": "Ordres",
+      "spot_order": "Commande au comptant"
+    },
+    "SelectPairs": {
+      "coin": "Pièce de monnaie",
+      "change": "Changer",
+      "last_price": "Dernier prix",
+      "price_snapshot": "Aperçu des prix",
+      "volume": "Volume (24h)"
+    },
+    "SelectTrade": {
+      "derivatives": "Dérivés",
+      "futures": "Contrats à terme",
+      "list_of_pairs": "Liste des paires",
+      "margin": "Marge",
+      "spot": "Endroit",
+      "trade": "Échanger"
+    },
+    "SelectUser": {
+      "API_management": "Gestion des API",
+      "dashboard": "Tableau de bord",
+      "identification": "Identification",
+      "log_out": "Se déconnecter",
+      "reward_center": "Centre de récompense",
+      "security": "Sécurité",
+      "approved": "Approuvé",
+      "pending": "En attente",
+      "reject": "Rejeter",
+      "unverified": "Non vérifié"
+    },
+    "SelectWallets": {
+      "P2P": "P2P",
+      "futures": "Contrats à terme",
+      "margin": "Marge",
+      "spot": "Endroit",
+      "transaction_history": "Historique des transactions",
+      "wallets": "Portefeuilles"
+    },
+    "binary_options": "Options binaires",
+    "WhitePaper": "Papier Blanc"
+  },
+  "Invoice": {
+    "account_holder": "Nom du titulaire du compte:",
+    "account_number": "Numéro de compte:",
+    "amount": "Montant",
+    "account": "Compte:",
+    "bank_details": "Coordonnées bancaires:",
+    "bank_state_branch": "Agence d'État de la Banque :",
+    "billed_to": "Facturé à:",
+    "created": "Créé:",
+    "country": "Pays:",
+    "city": "Ville:",
+    "date_issue": "Date d'Emission:",
+    "description": "La description",
+    "invoice": "Facturer",
+    "invoice_number": "Numéro de facture:",
+    "invoice_total": "Total de la facture :",
+    "phone": "Téléphoner:",
+    "post_code": "Code postal :",
+    "state": "État:",
+    "street": "Rue:",
+    "subtotal": "Total:",
+    "tax": "Impôt:",
+    "user": "Utilisateur:"
+  },
+  "Other": {
+    "approved": "Votre compte est approuvé.",
+    "invalid_email": "Email invalide",
+    "invalid_phone": "Numéro de téléphone invalide",
+    "pending": "Nous avons vos papiers. Veuillez patienter, nous les traiterons bientôt.",
+    "password_must_be": "Le mot de passe doit comporter au moins 8 caractères en utilisant 1 lettre minuscule, 1 lettre majuscule, 1 chiffre et 1 symbole et un maximum de 25 caractères",
+    "rejected": "Votre compte est rejeté. Raison : {text}",
+    "required": "Ce champ est requis",
+    "smg_went_wrong": "Quelque chose s'est mal passé",
+    "unverified": "Votre compte n'est pas vérifié."
+  },
+  "Statics": {
+    "ContactUs": {
+      "contact_support": "Contactez le support",
+      "description": "La description",
+      "email": "E-mail",
+      "email_error": "Entrez une adresse email valide",
+      "enter_message_text": "Saisir le texte du message",
+      "full_name": "Nom et prénom",
+      "full_name_error": "Entrez un nom valide",
+      "helsinki_finland": "Helsinki, Finlande",
+      "location": "Emplacement",
+      "need_help": "Besoin de notre aide ?",
+      "need_help_2": "Contactez-nous",
+      "send": "Envoyer",
+      "MTC_new_generation": "Metal Trading est une plateforme de crypto-monnaie de nouvelle génération.",
+      "MTC_support": "Soutien au commerce des métaux",
+      "text": "Vous avez des questions ? nous avons des réponses. Contactez notre équipe d'assistance pour tout problème et nous vous aiderons à le résoudre le plus rapidement possible. Vous pouvez également nous joindre via notre chaîne de télégramme officielle \"MTC\".",
+      "topic": "Sujet"
+    },
+    "AboutUs": {
+      "AboutUs": "À propos de nous",
+      "title": "L'échange incontournable pour échanger des cryptos",
+      "title2": "La mission de Metal Trading Company est de donner à nos utilisateurs l'expérience ultime de trading de crypto-monnaie.",
+      "text1": "Metal Trading Company s'efforce d'y parvenir en fournissant à nos utilisateurs des outils de trading de pointe, une technologie innovante et des niveaux de service client inégalés.",
+      "text2": "L'espace des actifs numériques évolue à un rythme effréné. Pour suivre une innovation technologique aussi rapide, il faut une approche tout aussi avant-gardiste et agile. Metal Trading Company fournit des services de négociation d'actifs numériques de pointe à nos utilisateurs et fournisseurs de liquidités mondiaux.",
+      "text3": "Nous croyons fermement que la meilleure expérience de trading de crypto-monnaie devrait être accessible à tous.",
+      "cart1_title": "Carottes Lorem ipsum",
+      "cart1_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed tempor et vitality, de sorte que le travail et le chagrin, certaines choses importantes à faire eiusmod."
+    },
+    "FAQ": {
+      "title": "FAQ",
+      "subtitle": "Metal Traiding Company est une plateforme de crypto-monnaie de nouvelle génération.",
+      "section_1": {
+        "title": "Retrait à la mauvaise adresse",
+        "text": "Coinbird lancera le processus de retrait automatique dès que vous cliquerez sur le bouton Confirmation de retrait dans votre compte de messagerie. Malheureusement, il n'y a aucun moyen d'arrêter cela une fois lancé. En raison de l'anonymat de la blockchain, Coinbird est également incapable de localiser où vos fonds ont été envoyés. Si vous avez envoyé vos pièces à la mauvaise adresse par erreur, veuillez utiliser d'autres moyens pour essayer de localiser et/ou contacter le destinataire de vos fonds. Si vous avez retiré vos fonds vers un autre échange avec une étiquette/une description requise incorrecte ou vide, veuillez contacter l'échange destinataire avec votre TxID pour organiser le retour de vos fonds."
+      },
+      "section_2": {
+        "title": "Mauvaises pièces déposées",
+        "text": "Coinbird lancera le processus de retrait automatique dès que vous cliquerez sur le bouton Confirmation de retrait dans votre compte de messagerie. Malheureusement, il n'y a aucun moyen d'arrêter cela une fois lancé. En raison de l'anonymat de la blockchain, Coinbird est également incapable de localiser où vos fonds ont été envoyés. Si vous avez envoyé vos pièces à la mauvaise adresse par erreur, veuillez utiliser d'autres moyens pour essayer de localiser et/ou contacter le destinataire de vos fonds."
+      },
+      "section_3": {
+        "title": "Retrait à la mauvaise adresse",
+        "text": "Coinbird lancera le processus de retrait automatique dès que vous cliquerez sur le bouton Confirmation de retrait dans votre compte de messagerie. Malheureusement, il n'y a aucun moyen d'arrêter cela une fois lancé."
+      },
+      "section_4": {
+        "title": "Retrait à la mauvaise adresse",
+        "text": "Coinbird lancera le processus de retrait automatique dès que vous cliquerez sur le bouton Confirmation de retrait dans votre compte de messagerie. Malheureusement, il n'y a aucun moyen d'arrêter cela une fois lancé. En raison de l'anonymat de la blockchain, Coinbird est également incapable de localiser où vos fonds ont été envoyés. Si vous avez envoyé vos pièces à la mauvaise adresse par erreur, veuillez utiliser d'autres moyens pour essayer de localiser et/ou contacter le destinataire de vos fonds. Si vous avez retiré vos fonds vers un autre échange avec une étiquette/une description requise incorrecte ou vide, veuillez contacter l'échange destinataire avec votre TxID pour organiser le retour de vos fonds."
+      },
+      "section_5": {
+        "title": "Mauvaises pièces déposées",
+        "text": "Coinbird lancera le processus de retrait automatique dès que vous cliquerez sur le bouton Confirmation de retrait dans votre compte de messagerie. Malheureusement, il n'y a aucun moyen d'arrêter cela une fois lancé. En raison de l'anonymat de la blockchain, Coinbird est également incapable de localiser où vos fonds ont été envoyés. Si vous avez envoyé vos pièces à la mauvaise adresse par erreur, veuillez utiliser d'autres moyens pour essayer de localiser et/ou contacter le destinataire de vos fonds."
+      },
+      "section_6": {
+        "title": "Retrait à la mauvaise adresse",
+        "text": "Coinbird lancera le processus de retrait automatique dès que vous cliquerez sur le bouton Confirmation de retrait dans votre compte de messagerie. Malheureusement, il n'y a aucun moyen d'arrêter cela une fois lancé."
+      }
+    },
+    "PrivacyPolicyPages": {
+      "title": "Politique de confidentialité",
+      "last_revision_date": "DATE DE LA DERNIÈRE RÉVISION : Février 2015",
+      "p_01": "Cette politique de confidentialité vise à décrire la manière dont le site Web {link} est géré en référence au traitement des données personnelles des utilisateurs qui le consultent.",
+      "p_02": "Il s'agit d'une information fournie conformément à la législation en vigueur à ceux qui interagissent avec les services Web de Metal Trading Company Ltd (ci-après également \"MTC\") pour la protection des données personnelles, accessible par voie électronique à partir de l'adresse : {link} , correspondant à la page d'accueil du site officiel de MTC.",
+      "p_03": "Les informations sont fournies uniquement pour le site MTC et non pour d'autres sites Internet pouvant être consultés par l'utilisateur via des liens.",
+      "p_04": "L'information s'inspire également de deux directives communautaires :",
+      "p_04_note_1": "Directive 2009/136/CE modifiant la directive 2002/22/CE relative au service universel et aux droits des utilisateurs dans le domaine des réseaux et services de communications électroniques, directive 2002/58/CE relative au traitement des données à caractère personnel et à la protection de la vie privée dans les communications électroniques secteur et du Règlement (CE) no. 2006/2004 sur la coopération entre les autorités nationales chargées de l'application de la législation sur la protection des consommateurs ;",
+      "p_04_note_2": "Directive 2009/140/CE modifiant les directives 2002/21/CE établissant un cadre réglementaire commun pour les réseaux et services de communications électroniques, 2002/19/CE relative à l'accès aux réseaux de communications électroniques et aux ressources connexes, et à leur interconnexion et 2002/20/CE relatives aux autorisations de réseaux et services de communications électroniques.",
+      "p_05": "L'information est également basée sur la recommandation no. 2/2001 que les autorités européennes pour la protection des données personnelles, réunies dans le Groupe institué par l'art. 29 de la directive n. 95/46/CE, adopté le 17 mai 2001 pour identifier quelques exigences minimales pour la collecte de données personnelles en ligne, et, en particulier, les modalités, le calendrier et la nature des informations que les responsables de traitement doivent fournir aux utilisateurs lorsqu'ils se connectent à pages Web, quel que soit le but du lien",
+      "p_06": "MTC se réserve le droit de modifier cette politique à tout moment. L'Utilisateur est donc invité à vérifier la « DATE DE DERNIÈRE RÉVISION » en bas du document pour vérifier quand la dernière mise à jour a été effectuée.",
+      "TheOwnerOfTheTreatment": {
+        "block_heading": "Le « Propriétaire » du traitement",
+        "p_01": "Suite à la consultation de ce site, des données relatives à des personnes identifiées ou identifiables pourront être traitées. Le \"propriétaire\" de leur traitement est MTC, qui est basé à Malte, Square 16th September, Cornerstone Business Center, Suite 1, Level 2 Mosta MST1180."
+      },
+      "PlaceOfDataProcessing": {
+        "block_heading": "Lieu de traitement des données",
+        "p_01": "Les traitements liés aux services Web de ce site, ainsi que le traitement des données personnelles relatives aux clients, fournisseurs, sujets inscrits dans nos listes de diffusion, et, en général, tous les sujets avec lesquels nous entretenons des relations d'affaires, ont lieu à du siège social de MTC susvisé et ne sont traités que par les employés, partenaires, collaborateurs de MTC qui ont été désignés en qualité de sous-traitants, ou par toute personne en charge d'opérations occasionnelles de maintenance des équipements électroniques et informatiques.",
+        "p_02": "Aucune donnée provenant du service Web n'est communiquée ou diffusée.",
+        "p_03": "La communication et la diffusion éventuelle des données personnelles n'ont lieu que sur la base des dispositions de la législation en vigueur : avec le consentement des parties intéressées ou dans les cas prévus par la loi."
+      },
+      "PurposeOfDataProcessing": {
+        "block_heading": "Finalité du traitement des données",
+        "p_01": "Les données personnelles fournies sont traitées exclusivement à des fins strictement liées à l'utilisation du site et/ou pour répondre à la demande spécifique envoyée aux adresses e-mail indiquées sur le site. Les données personnelles fournies par les utilisateurs qui soumettent des demandes d'informations et / ou de matériel de service, ainsi que par les clients, les fournisseurs et les sujets enregistrés dans nos listes de diffusion et, en général, tous les sujets avec lesquels nous entretenons des relations commerciales, sont utilisées à cette seule fin. de l'exécution du service ou de la prestation demandée, ou afin de remplir des obligations contractuelles ou légales et elles ne sont communiquées à des tiers que si cela est nécessaire à cette fin (par exemple des sociétés de services pour le tri et l'ensachage de la correspondance). Le traitement des données personnelles, qui a lieu dans le respect des principes de nécessité, de licéité, d'exactitude, de qualité et de proportionnalité, ne concerne pas les données de nature sensible, n'a pas pour objet des activités de profilage et vise exclusivement comme expliqué précédemment , à permettre l'utilisation du site et/ou à répondre à la demande spécifique envoyée aux adresses e-mail indiquées sur le site."
+      },
+      "TypesOfDataProcessed": {
+        "block_heading": "Types de Données traitées",
+        "p_01": "Données de navigation",
+        "p_02": "Les systèmes informatiques et les procédures logicielles utilisés pour faire fonctionner ce site Web acquièrent, au cours de leur fonctionnement normal, certaines données personnelles dont la transmission est implicite dans l'utilisation des protocoles de communication Internet.",
+        "p_03": "Ces informations ne sont pas collectées pour être associées à des parties intéressées identifiées mais, de par leur nature même par traitement et association avec des données détenues par des tiers, elles pourraient permettre d'identifier les utilisateurs.",
+        "p_04": "Cette catégorie de données comprend les adresses IP ou les noms de domaine des ordinateurs utilisés par les utilisateurs qui se connectent au site, les adresses URI (Uniform Resource Identifier) des ressources demandées, l'heure de la demande, la méthode utilisée pour soumettre la demande à le serveur, la taille du fichier obtenu en réponse, le code numérique indiquant l'état de la réponse donnée par le serveur (réussie, erreur, etc.) et d'autres paramètres relatifs au système d'exploitation et à l'environnement informatique de l'utilisateur.",
+        "p_05": "Ces données sont utilisées dans le seul but d'obtenir des informations statistiques anonymes sur l'utilisation du site et de vérifier son bon fonctionnement et elles sont supprimées immédiatement après leur traitement. Les données pourraient être utilisées pour déterminer la responsabilité en cas d'hypothétiques délits informatiques contre le site : à l'exception de cette possibilité, les données sur les contacts web ne sont pas stockées de manière permanente, sauf demande de l'utilisateur (ex : accès aux pages du site qui résument les services utilisés, les informations demandées, etc.).",
+        "p_06": "Données fournies volontairement par l'utilisateur",
+        "p_07": "L'envoi facultatif, explicite et volontaire d'e-mails aux adresses indiquées sur ce site entraîne l'acquisition ultérieure de l'adresse de l'expéditeur, nécessaire pour répondre aux demandes, ainsi que de toute autre donnée personnelle incluse dans le message. Des informations récapitulatives spécifiques seront éventuellement signalées ou affichées sur les pages du site mises en place pour des services particuliers sur demande."
+      },
+      "Cookies": {
+        "block_heading": "Biscuits",
+        "p_01": "Les cookies sont de petits fichiers texte qui sont stockés sur votre ordinateur (ou appareil mobile). Ils sont largement utilisés pour faire fonctionner les sites ou les faire fonctionner mieux et plus efficacement.",
+        "p_02": "Aucune donnée personnelle de l'utilisateur n'est acquise par le site à ce titre.",
+        "p_03": "L'utilisation de cookies dits de session (qui ne sont pas stockés de manière permanente sur l'ordinateur de l'utilisateur et disparaissent à la fermeture du navigateur) est strictement limitée à la transmission d'identifiants de session (constitués de nombres aléatoires générés par le serveur) nécessaires pour permettre une navigation sécurisée et site efficace.",
+        "p_04": "Les cookies dits de Session utilisés sur ce site évitent l'utilisation d'autres techniques informatiques potentiellement préjudiciables à la confidentialité de la navigation des utilisateurs et ne permettent pas l'acquisition des données personnelles d'identification de l'utilisateur."
+      },
+      "OptionalProvisionOfData": {
+        "block_heading": "Fourniture facultative de Données",
+        "p_01": "En dehors de ce qui est précisé pour les données de navigation, l'utilisateur est toujours libre de fournir des données personnelles pour les finalités pour lesquelles il se connecte au site (demande d'informations en remplissant le formulaire d'inscription, inscription à d'éventuelles newsletters, etc.). Cependant, le défaut de fournir des données peut, dans certains cas, rendre impossible l'obtention de ce qui est demandé."
+      },
+      "MethodOfTreatment": {
+        "block_heading": "Méthode de traitement",
+        "p_01": "Les données personnelles sont traitées avec des outils automatisés (par exemple à l'aide de procédures et supports électroniques) et/ou manuellement (par exemple sur papier), pendant le temps strictement nécessaire à la réalisation des finalités pour lesquelles elles ont été collectées. Des mesures de sécurité spécifiques sont observées pour empêcher la perte de données, l'utilisation illicite ou incorrecte et l'accès non autorisé."
+      },
+      "RightsOfTheInterestedParties": {
+        "block_heading": "Droits des intéressés",
+        "p_01": "Certains droits sont reconnus aux sujets auxquels se réfèrent les données personnelles ; en particulier, ils peuvent à tout moment : (i) obtenir la confirmation du porteur de l'existence ou non de données personnelles les concernant, même non encore enregistrées, et leur communication sous une forme intelligible, (pour ladite demande, lorsque l'existence des données concernant le demandeur n'est pas confirmée, le responsable du traitement peut demander une redevance n'excédant pas les coûts réellement supportés par le propriétaire lui-même) ; (ii) demander la confirmation de l'existence au siège du propriétaire de ses données personnelles (pour cette demande, si l'existence des données concernant le demandeur n'est pas confirmée, le responsable du traitement peut demander une redevance n'excédant pas les frais réellement supportés par le propriétaire lui-même); (iii) obtenir du responsable du traitement l'indication de l'origine des données personnelles, des finalités et des modalités de leur traitement, ainsi que des informations sur la logique appliquée en cas de traitement des données personnelles effectué à l'aide d'outils électroniques ; (iv) en même temps, ils peuvent obtenir une indication des sujets et catégories de sujets auxquels les données personnelles peuvent être communiquées ou qui peuvent entrer en possession ; (v) obtenir la mise à jour, la rectification et l'intégration des données personnelles ; (vi) demander l'annulation, la transformation sous forme anonyme ou le blocage des données traitées en violation de la loi, y compris les données qui n'ont pas besoin d'être conservées aux fins pour lesquelles les données ont été collectées ou traitées ultérieurement, ainsi qu'obtenir la certification que lesdites opérations ont été portés à la connaissance de ceux à qui les données ont été communiquées ou diffusées, à l'exception du cas où cette réalisation s'avère impossible ou implique l'utilisation de ressources manifestement disproportionnées au droit protégé ; (vii) s'opposer au traitement des données personnelles les concernant pour des motifs légitimes ou en cas d'utilisation des données pour l'envoi de matériel publicitaire ou de vente directe ou pour la réalisation d'études de marché ou de communications commerciales, et, en même temps, être informé, lorsque les données sont communiquées et diffusées, de la possibilité d'exercer ce droit gratuitement.",
+        "p_02": "Les demandes doivent être adressées à Metal Trading Company Ltd, par e-mail : {email} , ou par courrier à l'adresse suivante : à Malte, Square 16th September, Cornerstone Business Center, Suite 1, Level 2 Mosta MST1180."
+      }
+    },
+    "TermsConditionsPages": {
+      "title": "Conditions d'utilisation MTC",
+      "last_revision_date": "DATE DE DERNIÈRE RÉVISION : Mai 2021",
+      "GeneralInformation": {
+        "block_heading": "Informations générales",
+        "p_01": "Metal Trading Company sagl (ci-après également « MTC ») est une société de droit suisse, dont le siège social est situé via Nassa, 17 enregistrée auprès de la Chambre de commerce de Lugano sous le no. ............ du Registre du Commerce, CF no. ............ Numéro de TVA .......",
+        "p_02": "MTC est un courtier international spécialisé dans le négoce de métaux précieux et propose un service d'investissement et de conservation des métaux eux-mêmes. Offrant les mêmes opportunités aux devises FIAT et Crypto."
+      },
+      "Introduction": {
+        "block_heading": "Introduction",
+        "p_01": "Les conditions générales d'utilisation énumérées ci-dessous (ci-après également les « Conditions ») régissent le contrat stipulé entre l'Utilisateur et MTC, ainsi que les services fournis par cette dernière, accessibles sur le site : {link} (ci-après également « l'Utilisateur » ).",
+        "p_02": "L'utilisation des services fournis par MTC détermine pour l'Utilisateur l'acceptation pleine et entière des présentes Conditions, ainsi que de la Politique de confidentialité.",
+        "p_03": "L'Utilisateur est donc invité à lire attentivement les présentes Conditions, et les documents qui y sont mentionnés, ainsi que toutes autres notes, publiées partout sur le site.",
+        "p_04": "L'utilisation des services fournis par MTC est réservée aux personnes de plus de 18 ans.",
+        "p_05": "MTC se réserve le droit de modifier les présentes Conditions à tout moment. L'Utilisateur doit toujours se référer, en tant que version en vigueur, au texte des Conditions publié au moment de la consultation.",
+        "p_06": "Toute modification sera notifiée par publication sur le site {link} et sera valable le lendemain de sa publication.",
+        "p_07": "L'Utilisateur est donc invité à vérifier la « DATE DE DERNIÈRE RÉVISION » en bas du document pour vérifier quand la dernière mise à jour a été effectuée.",
+        "p_08": "L'Utilisateur qui n'est pas satisfait des nouvelles Conditions aura le droit de résilier le présent contrat de la manière indiquée au point 17 ci-dessous.",
+        "p_09": "Les locaux font partie intégrante et substantielle des présentes Conditions et assument la valeur d'un accord à toutes fins."
+      },
+      "ServiceOffered": {
+        "block_heading": "Service offert",
+        "p_01": "MTC s'engage à fournir le service de trading sur métaux précieux (ci-après également le \"Service\"), via sa propre plate-forme télématique, à partir de laquelle l'Utilisateur, suite à l'ouverture d'un Compte, peut acheter et vendre des métaux précieux en effectuant un virement ou via MT -Coins, une monnaie Crypto qui en plus de donner la possibilité d'acheter de l'or, définit un ensemble de droits, selon le smart-contract, aux détenteurs.",
+        "p_02": "MTC fournit également un service de livraison pour les métaux précieux détenus en portefeuille.",
+        "p_03": "Grâce à cette plate-forme, MTC permet aux utilisateurs de posséder de l'or physique par voie électronique qui peut être demandé pour livraison à tout moment.",
+        "p_04": "Via la plateforme, l'Utilisateur fait une demande d'achat ou de vente d'or à un certain prix.",
+        "p_05": "L'Utilisateur reconnaît et accepte que MTC puisse faire appel à d'autres courtiers de confiance, identifiés à cet effet, afin qu'il puisse garantir la couverture nécessaire pour permettre l'utilisation régulière et la fourniture correcte du Service proposé."
+      },
+      "Warnings": {
+        "block_heading": "Mises en garde",
+        "p_01": "Le trading sur matières premières et l'utilisation de la même plateforme comportent un niveau de risque élevé pour l'Utilisateur de son investissement. En raison de la volatilité de ces marchés, l'Utilisateur est invité à évaluer attentivement tous les risques liés à l'utilisation de la plateforme ainsi que de ces instruments financiers. Ce type d'investissement peut ne pas convenir à tout type d'investisseur. L'Utilisateur déclare avoir lu et compris les présentes Conditions et être conscient des risques liés à l'achat et à la vente de ces produits.",
+        "p_02": "Le trading sur des matières premières telles que la détention de devises Crypto sur la plate-forme MTC peut entraîner des pertes importantes. l'Utilisateur reconnaît et accepte ce risque, ayant la possibilité de clôturer les positions du portefeuille à tout moment.",
+        "p_03": "L'Utilisateur reconnaît également que MTC pourra procéder de manière autonome à la fermeture du compte si l'Utilisateur ne répond pas aux exigences d'intégrité et de conformité à la loi. Et en cas de demande des autorités, le MTC mettra à leur disposition le compte de l'utilisateur sans que ce dernier puisse y accéder à nouveau jusqu'à ce que les autorités décident."
+      },
+      "TypeOfServiceCostsAndCommissions": {
+        "block_heading": "Type de service frais et commissions",
+        "p_01": "MTC met sa plateforme de trading en ligne à la disposition de l'Utilisateur, à travers cette plateforme, l'utilisateur peut :",
+        "p_01_subtitle_01": "Achat de MT-Coins",
+        "p_01_subtitle_01_option_a": "Via la commission Crypto {commission}%.",
+        "p_01_subtitle_01_option_b": " Commission inexistante via la monnaie fiduciaire",
+        "p_01_subtitle_01_option_c": " PAR CARTE DE CRÉDIT {commission}% DE COMMISSION.",
+        "p_01_subtitle_02": "Achat d'or via MT-Coins",
+        "p_01_subtitle_02_option_a": " Achat d'or (la valeur des MT-Coins varie en fonction des quantités achetées de MT-Coins)",
+        "p_01_subtitle_02_option_b": " Digital, {g_commission_incoming}% entrant et {g_commission_outgoing}% sortant",
+        "p_01_subtitle_02_option_c": " Livraison physique, {commission}% spread plus frais de livraison",
+        "p_01_subtitle_03": "Achat de MT-Coins d'autres Crypto {commission}%.",
+        "p_02": "Pour chaque achat ou vente, l'Utilisateur est tenu de verser une commission à MTC.",
+        "p_03": "Les frais de livraison sont à la charge exclusive de l'Utilisateur et varient selon le lieu où le métal doit être livré ou récupéré.",
+        "DeliveryOfPhysicalGold": {
+          "block_heading": "Livraison d'or physique",
+          "p_01": "La quantité minimale pour la livraison d'or est de 200 grammes.",
+          "p_02": "Les frais énumérés ci-dessous incluant le transport, le dédouanement et l'assurance sont à considérer pour chaque kg d'or expédié et le tarif minimum sera calculé sur un poids minimum d'un kilogramme même si l'envoi sera inférieur.",
+          "p_03": "Variables de temps et de coût :",
+          "p_03_subtitle_01": "Livraison dans n'importe quel aéroport international :",
+          "p_03_subtitle_01_option_a": "Le délai de livraison est de 24/48 heures",
+          "p_03_subtitle_01_option_b": "375 euros pour le transport, l'assurance et le dédouanement (hors taxes éventuelles ou TVA, si elle est appliquée par l'état dans lequel arrivent les marchandises).",
+          "p_03_subtitle_01_option_c": "Vous payez des frais de dépôt pour chaque jour où l'or reste dans le coffre-fort. Cette caution varie de 20 à 30 dollars par jour et en tout cas selon les demandes de l'aéroport de référence.",
+          "p_03_subtitle_02": "Livraison à votre propre adresse (coffre, domicile, banque, etc.) :",
+          "p_03_subtitle_02_option_a": "Les délais de livraison varient en fonction de la distance entre le lieu de livraison et l'aéroport international le plus proche, cependant ils ne dépasseront jamais 96 heures",
+          "p_03_subtitle_02_option_b": "475 euros pour le transport, l'assurance et le dédouanement (hors taxes éventuelles, si appliquées par votre état).",
+          "p_03_subtitle_02_option_c": "En cas de non-livraison, du fait du destinataire, la marchandise retournera au coffre le plus proche et des frais éventuels pour un nouvel envoi/livraison pourront être facturés.",
+          "p_03_subtitle_03": "La livraison dans l'état suisse a un coût de 50 euros, transport et assurance compris, pour chaque kg d'or expédié et le tarif minimum sera calculé sur un poids minimum d'un kilogramme même si l'envoi sera inférieur. Les délais de livraison sont sous 24h."
+        }
+      },
+      "AccessAndUseOfTheTradingPlatform": {
+        "block_heading": "Accès et utilisation de la plateforme de trading",
+        "p_01": "L'accès à la plateforme est autorisé à l'Utilisateur après s'être inscrit sur le formulaire approprié au sein du site MTC. Les identifiants d'accès sont strictement personnels et doivent être utilisés exclusivement par leur propriétaire.",
+        "p_02": "A cet effet, l'Utilisateur s'engage à :",
+        "p_02_note_1": "conserver les identifiants d'accès à la plate-forme en toute sécurité.",
+        "p_02_note_2": "informer MTC de toute utilisation non autorisée de celui-ci.",
+        "p_03": "Si MTC détecte une utilisation non autorisée et suspecte de la plateforme, elle se réserve le droit de demander à l'Utilisateur de modifier ses identifiants de connexion ou de suspendre l'accès à la plateforme de trading.",
+        "p_04": "MTC accorde à l'Utilisateur une licence pour installer et utiliser le logiciel de la plateforme de trading. Cette licence est concédée pour un usage strictement personnel. En cas de retrait par l'Utilisateur de cet accord, MTC révoquera la licence susvisée et le logiciel de la plateforme ne devra plus être utilisé.",
+        "p_05": "Tous les droits liés au logiciel de la plateforme de trading, à l'exception de la licence d'utilisation concédée à l'Utilisateur, resteront la propriété exclusive de MTC.",
+        "p_06": "L'Utilisateur reconnaît et accepte que, afin d'assurer le bon fonctionnement de la plateforme de trading, MTC se réserve le droit d'y apporter des modifications et des améliorations afin d'en faciliter l'utilisation par les utilisateurs.",
+        "p_07": "L'Utilisateur reconnaît également que l'accès à la plate-forme peut être limité si une maintenance, des réparations, des reconfigurations ou des mises à jour deviennent nécessaires afin d'améliorer le fonctionnement, la qualité ou la fonctionnalité de la plate-forme elle-même.",
+        "p_08": "Il est expressément interdit à l'Utilisateur :",
+        "p_08_note_1": "utiliser la plateforme à des fins illégales ;",
+        "p_08_note_2": "prendre toute mesure visant à nuire à son fonctionnement."
+      },
+      "IntellectualPropertyRights": {
+        "block_heading": "Droits de propriété intellectuelle",
+        "p_01": "L'Utilisateur reconnaît que tous les droits de propriété intellectuelle relatifs à la plateforme de trading sont la propriété de MTC ou de tiers.",
+        "p_02": "Il est expressément interdit à l'Utilisateur de :",
+        "p_02_note_1": "copier (copie autorisée à des fins de sauvegarde uniquement), enregistrer ou modifier toute partie de la plateforme de trading",
+        "p_02_note_2": "décoder, désassembler ou autrement tenter de dériver le code source de la plateforme de trading en tout ou en partie, sauf dans la mesure expressément autorisée par la loi",
+        "p_02_note_3": "de quelque manière que ce soit endommager ou compromettre l'un de nos droits de propriété intellectuelle."
+      },
+      "ProtectionOfPersonalDataOnTheSite": {
+        "block_heading": "Protection des Données Personnelles sur le Site",
+        "p_01": "MTC déclare que le traitement des données personnelles de l'Utilisateur acquises dans le cadre de la navigation et/ou de l'utilisation des services et de toute autre fonctionnalité du Site s'effectuera dans le plein respect des obligations réglementaires en vigueur, avec les modalités et finalités précisées dans la Politique de confidentialité, que l'Utilisateur déclare avoir spécifiquement consulté."
+      },
+      "UserIdentityVerification": {
+        "block_heading": "Vérification de l'identité de l'utilisateur",
+        "p_01": "MTC se réserve le droit de demander les documents complémentaires qui lui sont nécessaires afin de vérifier avec certitude l'identité de l'Utilisateur. A cet effet, l'Utilisateur devra fournir une pièce d'identité en cours de validité.",
+        "p_02": "L'Utilisateur reconnaît que dans le cas où la propriété du Compte serait attribuable à une personne différente, MTC aura le droit de demander l'intégration de la documentation ou des documents d'identité supplémentaires à cet égard.",
+        "p_03": "A la demande de MTC, l'Utilisateur s'engage à fournir à cette dernière les données et documents nécessaires afin qu'il puisse s'assurer que la propriété du Compte Métaux et du compte courant principal sont imputables à la même personne.",
+        "p_04": "L'Utilisateur accepte que les documents de vérification d'identité soient en anglais, en italien ou dans l'une des langues activement prises en charge par MTC. A défaut, l'Utilisateur s'engage à fournir une traduction certifiée avec les documents eux-mêmes, réalisée à ses frais."
+      },
+      "VerificationOfTheSourceOfTransfersInTheAccount": {
+        "block_heading": "Vérification de la source des virements dans le Compte",
+        "p_01": "MTC se réserve le droit de sauvegarder dans ses systèmes les coordonnées bancaires résultant des virements effectués par l'Utilisateur sur son Compte, afin de les comparer avec celles indiquées dans les documents fournis par l'Utilisateur."
+      },
+      "RegistrationOfTheUserAccount": {
+        "block_heading": "L'enregistrement du compte bancaire personnel de l'utilisateur peut être lié au compte",
+        "p_01": "Si le client souhaite connecter la plateforme à son propre compte courant, MTC se réserve le droit d'enregistrer le compte courant principal, connecté au Compte, après comparaison des données indiquées sur les documents fournis par l'Utilisateur avec celles résultant des virements bancaires entrants. , réalisée par ce dernier.",
+        "p_02": "Toute erreur matérielle concernant les données enregistrées sur le système (coordonnées bancaires du compte courant principal) doit être immédiatement communiquée à MTC sous peine de responsabilité.",
+        "p_03": "L'Utilisateur indemnise expressément MTC en cas de perte de fonds due à des virements d'argent du Comptoir vers le compte courant personnel, si les coordonnées bancaires de ce dernier sont erronées ou lors de transferts de Crypto-monnaies en saisissant par erreur le compte de destination, nous savons dans ce cas qu'il perdrait sa valeur globale sans pouvoir la récupérer.",
+        "p_04": "À cet égard, MTC demande à l'Utilisateur de vérifier attentivement les coordonnées bancaires et le détail des codes des comptes de destination Crypto pour le transfert de fonds."
+      },
+      "ChangesToTheMainBankAccount": {
+        "block_heading": "Modifications du compte bancaire principal",
+        "p_01": "L'Utilisateur se réserve le droit de modifier les coordonnées de son compte courant principal.",
+        "p_02": "La demande doit être adressée à MTC par l'envoi d'un e-mail spécifique.",
+        "p_03": "L'Utilisateur reconnaît que la demande de modification ne pourra être considérée par MTC que si la propriété des deux comptes courants est exactement identique et imputable à la même personne.",
+        "p_04": "MTC confirmera la modification du compte courant principal en envoyant un e-mail à l'adresse enregistrée."
+      },
+      "ProtectionOfPreciousMetals": {
+        "block_heading": "Protection des métaux précieux",
+        "p_01": "MTC garantit que le métal acquis par l'Utilisateur sera physiquement disponible, dans les délais et modalités prévus à l'article 5 « livraison physique d'or ».",
+        "p_02": "Forme des métaux précieux et garanties quant à leur pureté",
+        "p_03": "MTC garantit que le métal acheté par l'Utilisateur est testé et reconnu comme Bonne Livraison, et qu'il provient d'opérateurs professionnels, dans le respect de la législation en vigueur.",
+        "p_04": "Le métal est généralement commercialisé sous la forme d'un lingot, sur lequel sont gravés le poids et le numéro de série.",
+        "p_05": "Les lingots d'or représentent l'or pour l'investissement, dont la pureté est d'au moins 99,5%.",
+        "p_06": "Les lingots d'or représentent l'or pour l'investissement et ont un degré de pureté égal à 999,9 / 1 000.",
+        "p_07": "MTC garantit que :",
+        "p_07_note_1": "chaque gramme d'or sur le compte de l'Utilisateur correspond à un gramme d'or fin 100% pur qui fait partie d'un lingot d'or testé et pur à 99,5% (ou plus)",
+        "p_08": "Contrairement à ce qui précède, il sera de la responsabilité de MTC de combler les lacunes ou de remplacer le matériel inférieur à la norme indiquée.",
+        "p_09": "Opérateurs de coffre-fort",
+        "p_09_note_1": "Les opérateurs sont des entités juridiques hautement professionnelles qui s'occupent de la réception, du stockage et de la livraison des barres, conformément à la législation en vigueur.",
+        "p_09_note_2": "Le métal acheté par l'Utilisateur MTC est conservé en dépôt dans des salles voûtées gérées par des opérateurs professionnels identifiés par MTC ; la relation entre MTC et ces opérateurs est régie par un contrat de garde (ci-après le « Contrat de garde ») signé entre MTC et chacun de ces opérateurs.",
+        "p_09_note_3": "Les frais de garde du service rendu par les exploitants de la chambre forte sont à la charge exclusive du MTC.",
+        "p_10": "MTC garantit que :",
+        "p_10_note_1": "le métal possédé par l'utilisateur, en garde à vue dans les entrepôts, sera maintenu libre de poids, encombrements, transcriptions et charges",
+        "p_10_note_2": "il restera à tout moment de leur pleine disponibilité et en dépôt auprès des exploitants des salles voûtées jusqu'à ce qu'il soit vendu ou retiré selon les instructions reçues.",
+        "p_11": "Assurance",
+        "p_11_note_1": "MTC garantit que le métal sera couvert par une assurance contre le vol et les dommages.",
+        "p_11_note_2": "Le coût de l'assurance est pris en charge par le MTC.",
+        "p_12": "Enlèvement de métal de la voûte",
+        "p_12_note_1": "L'Utilisateur, sous réserve d'une identification adéquate par MTC, a le droit de retirer le métal. La livraison aura lieu au lieu indiqué par l'Utilisateur.",
+        "p_12_note_2": "Les frais de retrait du métal physique sont à la charge de l'Utilisateur, comme indiqué à l'art. 5 \"livraison d'or physique\".",
+        "p_12_note_3": "La demande de retrait physique de métal doit être faite directement à MTC.",
+        "p_12_note_4": "Le retrait de l'or du coffre-fort ne sera effectué que pour des quantités égales ou supérieures à 200 grammes et sous forme de barres de taille appropriée généralement acceptées sur le marché, sélectionnées à la discrétion de MTC."
+      },
+      "Taxation": {
+        "block_heading": "Imposition",
+        "p_01": "L'Utilisateur reconnaît que toutes taxes ou autres charges fiscales liées à l'achat ou à la vente d'or seront de sa seule responsabilité."
+      },
+      "LimitationOfLiabilityAndForceMajeure": {
+        "block_heading": "Limitation de responsabilité et force majeure",
+        "p_01": "L'Utilisateur reconnaît que l'utilisation du service proposé par MTC se fait à ses risques et périls. MTC n'offre aucune garantie spécifique quant aux résultats attendus, espérés ou obtenus par l'Utilisateur avec l'utilisation du service fourni.",
+        "p_02": "L'Utilisateur déclare et garantit indemniser et dégager de toute responsabilité MTC, ses représentants, employés, collaborateurs, de toute obligation d'indemnisation, y compris les frais de justice, qui pourraient lui incomber en relation avec l'utilisation du service fourni par MTC.",
+        "p_03": "A ce titre, l'Utilisateur indemnise expressément MTC :",
+        "p_03_note_1": "pour toute perte économique, réduction de la valeur du métal, perte de profit, dépense, coût ou responsabilité, dommages directs et indirects subis ou encourus par l'utilisateur ou par des tiers en relation avec le service fourni par celui-ci.",
+        "p_03_note_2": "de toute responsabilité en cas de réclamations, actions en justice, actions gouvernementales ou administratives, pertes ou dommages (y compris les frais et honoraires de justice) résultant de l'utilisation illégale du service par l'Utilisateur ou éventuellement par des tiers.",
+        "p_03_note_3": "de toutes pertes, dommages, responsabilités, coûts, charges et dépenses, y compris les frais juridiques, éventuellement encourus par MTC elle-même à la suite de toute violation par l'Utilisateur des présentes Conditions, même en cas d'indemnisation pour des dommages réclamés par des tiers dans toute capacité.",
+        "p_04": "MTC n'assume aucune responsabilité pour les inefficacités attribuables à un cas de force majeure, si elle ne parvient pas à fournir le service, ou si elle se trouve dans la position de ne pas être en mesure de fournir le service en tout ou en partie comme promis.",
+        "p_05": "La responsabilité de MTC ne saurait être engagée vis-à-vis de l'Utilisateur, sauf en cas de faute intentionnelle ou de faute lourde, pour des inefficacités ou des dysfonctionnements liés à l'utilisation d'Internet en dehors de son contrôle.",
+        "p_06": "MTC ne sera pas non plus responsable des dommages de toute nature, directs et/ou indirects, des pertes et coûts subis par l'Utilisateur du fait de la non-fourniture des services pour des raisons non imputables à MTC et/ou de force majeure."
+      },
+      "MoneyLaundering": {
+        "block_heading": "Blanchiment d'argent",
+        "p_01": "L'Utilisateur garantit que :",
+        "p_01_note_1": "l'argent qui transite par le compte MTC, utilisé pour l'achat et la vente de métaux précieux, est d'origine licite et ne provient pas d'activités criminelles",
+        "p_01_note_2": "le service de négoce sur métaux précieux fourni par MTC, ne sera pas utilisé par l'Utilisateur lui-même pour effectuer des opérations de blanchiment d'argent",
+        "p_01_note_3": "les fonds utilisés ont été dûment déclarés aux autorités fiscales de leur pays de résidence et/ou de nationalité.",
+        "p_02": "À cette fin, l'Utilisateur ne sera pas autorisé à acheter des métaux précieux par virement bancaire à partir d'un compte tiers.",
+        "p_03": "L'Utilisateur reconnaît et accepte que si MTC a des motifs justifiés de croire que le compte est imputable à des activités illégales et/ou de blanchiment d'argent, ce dernier, sans en informer l'Utilisateur, pourra en informer les autorités compétentes afin qu'elles puissent procéder aux investigations appropriées."
+      },
+      "Withdrawal": {
+        "block_heading": "Retrait",
+        "p_01": "L'Utilisateur aura le droit de résilier ce contrat à tout moment, par simple fermeture du Compte MTC, suite à la vente du métal et au transfert des fonds y afférents sur ce compte."
+      },
+      "ApplicableLawAndJurisdiction": {
+        "block_heading": "Droit applicable et juridiction",
+        "p_01": "Les Conditions et relations entre MTC et l'Utilisateur ont été élaborées et sont régies par la législation suisse.",
+        "p_02": "Pour tous les litiges pouvant survenir entre MTC et en relation avec la validité, l'interprétation, l'exécution des présentes Conditions, le Tribunal du Tessin sera seul compétent.",
+        "p_03": "Si certaines dispositions des Conditions sont jugées invalides ou inapplicables, elles seront en tout état de cause interprétées de manière à refléter les intentions de MTC, conformément aux autres dispositions des Conditions.",
+        "p_04": "Le défaut par MTC d'exercer les droits et dispositions énoncés dans les Conditions ne constitue pas une renonciation à celles-ci, à moins que MTC ne le déclare expressément par écrit."
+      },
+      "Miscellaneous": {
+        "block_heading": "Divers",
+        "p_01": "Il est entendu qu'en cas de violation par l'Utilisateur des présentes Conditions, MTC se réserve le droit de suspendre ou de bloquer l'accès de ce dernier à ce site et éventuellement de refuser d'autoriser un accès ultérieur.",
+        "p_02": "La nullité ou la nullité d'une ou plusieurs des clauses des présentes Conditions ne compromettra pas la validité des clauses restantes qui conserveront en tout état de cause toute leur force et leur efficacité."
+      },
+      "CommunicationsAndComplaints": {
+        "block_heading": "Communications et plaintes",
+        "p_01": "Les communications écrites à MTC et toute réclamation ne seront considérées comme valables que si elles sont envoyées à l'adresse suivante Via Nassa, 17 P.O. Box 6254 6901 Lugano Suisse, ou envoyé par e-mail à l'adresse suivante {link}. L'Utilisateur indique dans le formulaire d'inscription sa résidence ou son domicile, le numéro de téléphone ou l'adresse e-mail à laquelle il souhaite que les communications soient envoyées."
+      }
+    }
+  },
+  "Trading": {
+    "modals": {
+      "amount": "Montant",
+      "buy": "Acheter",
+      "contracts_size": "{size} Contrats de {symbol} au marché.",
+      "close_entire_position": "Cela fermera l'intégralité de votre position au prix du marché disponible.",
+      "close_position": "Fermer la position",
+      "entry_price": "Prix d'entrée",
+      "last_price": "Dernier prix",
+      "limit": "Limite",
+      "market_close_pos": "Marché Fermer cette position ?",
+      "market_close": "Fermeture du marché",
+      "market_close_position": "Position de clôture du marché",
+      "mark_price": "Marquer le prix",
+      "new": "Nouveau",
+      "oto_info": "е-Triggers-the-Other order (OTO) vous permet de passer une commande principale et une commande secondaire en même temps.",
+      "pending": "En attente",
+      "stop_loss": "Arrêter la perte",
+      "symbol": "symbole",
+      "sell": "Vendre",
+      "stop_market": "Marché d'arrêt",
+      "side": "Côté",
+      "take_profit": "Tirer profit",
+      "trigger": "Déclencheur",
+      "take_profit_market": "Take Profit Market"
+    },
+    "orderBook": {
+      "order_book": "Carnet de commande",
+      "amount": "Montant",
+      "price": "Prix",
+      "total": "Le total"
+    },
+    "orderCreation": {
+      "amount": "Montant",
+      "balance": "Équilibre",
+      "buy": "Acheter",
+      "buy_long": "Acheter/long",
+      "borrow": "Emprunter",
+      "fee": "Frais",
+      "filled": "Rempli",
+      "limit": "Limite",
+      "limit_order": "Limite",
+      "last_price": "Dernier prix",
+      "market_order": "Ordre du marché",
+      "mark_price": "Marquer le prix",
+      "post_only": "Publier uniquement",
+      "price": "Prix",
+      "qty": "Qté",
+      "repay": "Rembourser",
+      "reduce_only": "Réduire seulement",
+      "recent_trades": "Transactions récentes",
+      "stop_limit": "Limite d'arrêt",
+      "stop_limit_info": "Acheter ou vendre une pièce une fois que le prix atteint un prix spécifié",
+      "sell": "Vendre",
+      "sell_short": "Vendre/Short",
+      "symbol": "symbole",
+      "size": "Taille",
+      "stop": "Arrêter",
+      "stop_loss": "Arrêter la perte",
+      "side": "Côté",
+      "tp_sl": "TP/SL",
+      "take_profit": "Tirer profit",
+      "type": "Taper",
+      "total": "Le total",
+      "trigger_cond": "Conditions de déclenchement",
+      "transfer": "Transfert"
+    },
+    "recentTrade": {
+      "date_time": "Date et l'heure",
+      "price": "Prix",
+      "qty": "Qté",
+      "recent_trades": "Transactions récentes {pair}"
+    },
+    "tableBlock": {
+      "asset": "Actif",
+      "available_balance": "Solde disponible",
+      "average": "Moyenne",
+      "amount": "Montant",
+      "all": "Tout",
+      "are_you_sure": "Êtes-vous sûr d'annuler toutes les commandes {code} ?",
+      "balance": "Équilibre",
+      "btc_quantity": "Quantité BTC",
+      "buy": "Acheter",
+      "cancel_all": "Annuler tout",
+      "date_time": "Date et heure",
+      "date": "Date",
+      "debt": "Dette",
+      "equity": "Équité",
+      "funds": "Fonds",
+      "filled": "Rempli (%)",
+      "filled_price": "Prix rempli",
+      "fee": "Frais",
+      "in_order": "En ordre",
+      "limit": "Limite",
+      "market": "Marché",
+      "open_orders": "Commandes ouvertes",
+      "order_history": "Historique des commandes",
+      "positions": "Postes",
+      "pair": "Paire",
+      "price": "Prix",
+      "quantity": "Quantité",
+      "quantity_remaining": "Quantité restante",
+      "side": "Côté",
+      "status": "Statut",
+      "sell": "Vendre",
+      "trade_history": "Historique du commerce",
+      "type": "Taper",
+      "total": "Le total",
+      "trigger": "Déclencheur",
+      "day": "Jour",
+      "week": "Semaine",
+      "month": "Mois",
+      "months": "Mois",
+      "search": "Rechercher",
+      "status_filled": "Rempli",
+      "status_canceled": "Annulé"
+    },
+    "tablesHeaders": {
+      "amount": "Montant",
+      "average": "Moyenne",
+      "all": "Tout",
+      "cancel all": "Annuler tout",
+      "current_price": "Prix actuel (Mark)",
+      "close_all": "Fermer toutes les positions",
+      "close_order_at": "Fermer la commande à",
+      "cancel_all": "Annuler tout",
+      "cancel_all_warning": "Êtes-vous sûr d'annuler toutes les commandes {code} ?",
+      "date_and_time": "Date et heure",
+      "entry_price": "Prix d'entrée",
+      "filled_executed": "Rempli (Exécuté)",
+      "filled": "Rempli",
+      "fee": "Frais",
+      "liq_price": "Prix de liquidation",
+      "limit": "Limite",
+      "last_price": "Dernier prix",
+      "mark_price": "Marquer le prix",
+      "margin_ratio": "Ratio de marge",
+      "margin": "Marge",
+      "market": "Marché",
+      "pnl_roe": "PNL (ROE %)",
+      "price": "Prix",
+      "quantity": "Quantité",
+      "qty": "Qté",
+      "recent_trades": "Transactions récentes",
+      "reduce_only": "Réduire seulement",
+      "realized_profit": "Bénéfice réalisé",
+      "stop_loss": "Arrêter la perte",
+      "symbol": "symbole",
+      "size": "Taille",
+      "side": "Côté",
+      "status": "Statut",
+      "take_profit": "Tirer profit",
+      "tp_sl": "TP/SL",
+      "type": "Taper",
+      "total": "Le total",
+      "trigger_cond": "Conditions de déclenchement"
+    },
+    "listOfPairs": {
+      "spot": "Endroit",
+      "margin": "Marge",
+      "futures": "Contrats à terme",
+      "favorites": "Favoris",
+      "coin_search": "Rechercher le nom de la pièce",
+      "currency": "DEVISE",
+      "contract": "CONTRAT",
+      "last_price": "DERNIER PRIX",
+      "change_24": "CHANGEMENT 24H",
+      "high_24": "24H HAUT",
+      "low_24": "24H FAIBLE",
+      "volume_24": "VOLUME 24H",
+      "trade": "Échanger"
+    },
+    "infoOfPairs": {
+      "last_price": "Dernier prix",
+      "24h_change": "Changement 24h",
+      "24h_high": "24h haut",
+      "24h_low": "24h bas",
+      "price_snapshot": "Aperçu des prix",
+      "24h_volume": "Volume 24h",
+      "total_buy_volume": "Volume d'achat total",
+      "total_sell_volume": "Volume de vente total"
+    }
+  },
+  "UsersPage": {
+    "Navigation": {
+      "dashboard": "Tableau de bord",
+      "security": "Sécurité",
+      "identification": "Identification",
+      "api_management": "Gestion des API",
+      "settings": "Paramètres"
+    },
+    "ApiManagement": {
+      "api_management": "Gestion des API",
+      "add_new_api": "Ajouter une nouvelle clé API",
+      "api_key": "Clé API",
+      "add_key": "Ajouter une clé",
+      "action": "ACTION",
+      "active": "Activée",
+      "active_button": "Activer",
+      "confirm_remove": "Voulez-vous vraiment supprimer la clé ?",
+      "confirm_disable": "Voulez-vous vraiment désactiver la clé ?",
+      "confirm_activate": "Voulez-vous vraiment activer la clé ?",
+      "disabled": "Désactivée",
+      "disabled_button": "Désactiver",
+      "key_name": "Nom de la clé",
+      "list_of_api": "Liste des clés API",
+      "name_length": "Le nom doit comporter au minimum 4 et au maximum 50 symboles",
+      "name": "Nom",
+      "permission": "Autorisation:",
+      "permissions": "Autorisations",
+      "read_create": "Lire et créer",
+      "read_only": "Lecture seulement",
+      "status": "Statut",
+      "withdraw": "Retirer:"
+    },
+    "Dashboard": {
+      "account_balance": "Solde du compte :",
+      "assets_without_equivalent": "Les actifs sans valeur BTC équivalente ne sont pas affichés dans le graphique",
+      "balance_details": "Détails du solde",
+      "btc": "BTC",
+      "dashboard": "Tableau de bord",
+      "derivatives": "Dérivés",
+      "estimated_value": "Valeur estimée:",
+      "info_text": "L'utilisateur non vérifié ne pourra pas retirer plus de 5 000 USDT",
+      "futures": "Contrats à terme",
+      "hide_balance": "Masquer le solde",
+      "last_login": "Heure de la dernière connexion {value}",
+      "margin": "Marge",
+      "p2p": "P2P",
+      "spot": "Endroit",
+      "show_balance": "Afficher le solde",
+      "user_id": "Identifiant d'utilisateur:",
+      "DownPanel": {
+        "maker": "Fabricant",
+        "input_text": "Utiliser {name} pour payer les frais ( {value} % de réduction)",
+        "taker": "Preneur",
+        "cryptocurrency": "Crypto-monnaie",
+        "fee": "Frais",
+        "Modal": {
+          "title": "Êtes-vous sûr de ne pas vouloir utiliser {name} pour payer les frais ?",
+          "text": "Si vous désactivez cette fonctionnalité, vous n'obtiendrez pas de réduction sur les frais de trading.",
+          "keep_it_on": "Gardez-le",
+          "off": "Désactivé"
+        }
+      }
+    },
+    "Identification": {
+      "country": "Pays",
+      "city": "Ville",
+      "clicking_here": "En cliquant ici",
+      "driver_license": "Permis de conduire",
+      "date_of_birth": "Date de naissance",
+      "delete_files_by": "Vous pouvez également supprimer le fichier en",
+      "day": "Jour",
+      "email": "E-mail",
+      "first_name": "Prénom",
+      "identification": "Identification",
+      "jpg_png": ". JPG. PNG",
+      "last_name": "Nom de famille",
+      "month": "Mois",
+      "national_identity_card": "Carte d'identité",
+      "post_code": "Code postal",
+      "phone": "Téléphoner",
+      "passport": "Passeport",
+      "save": "Sauvegarder",
+      "state": "État",
+      "street_address": "Adresse de rue",
+      "status": "Statut",
+      "upload_files_by": "Vous pouvez également télécharger des fichiers en",
+      "upload_picture": "S'il vous plaît, téléchargez une image jusqu'à 3 Mo",
+      "picture_format_error": "Veuillez télécharger un fichier .png ou .jpg",
+      "year": "An"
+    },
+    "RewardCenter": { "reward_center": "Centre de récompense" },
+    "Security": {
+      "confirm_password": "Confirmez le mot de passe",
+      "code": "Code",
+      "code_error": "Veuillez saisir un code de vérification à 6 chiffres.",
+      "do_not_match": "Les mots de passe ne correspondent pas.",
+      "enable_2fa": "Activer 2FA",
+      "google_authentication": "Authentification Google",
+      "google_authenticator_code": "Code d'authentification Google (2FA)",
+      "increase_your_security": "Augmentez la sécurité de votre compte",
+      "log_in": "Connexion",
+      "new_password": "Nouveau mot de passe",
+      "password": "Mot de passe",
+      "please_enter_code": "S'il vous plaît, entrez le code.",
+      "recommend_yubiKey": "Recommander YubiKey",
+      "reset_password": "réinitialiser le mot de passe",
+      "security": "Sécurité",
+      "security_key": "Clef de sécurité",
+      "setup": "Installer",
+      "save": "Sauvegarder",
+      "to_disable_2fa": "Pour désactiver 2FA, entrez le code",
+      "to_enable_2fa": "Pour activer 2FA, veuillez télécharger et installer Google Authenticator. Application Google Authenticator que vous pouvez télécharger :",
+      "turn_on_withdraw": "Activer le retrait",
+      "twofa": "2FA",
+      "used_for_withdrawals": "Utilisé pour les retraits et les modifications de sécurité",
+      "verify": "Vérifier",
+      "what_is_security": "Qu'est-ce qu'une clé de sécurité ?",
+      "withdraw_api": "Retrait et API",
+      "AntiphishingBlock": {
+        "title": "Phrase anti-hameçonnage",
+        "btn_enable": "Activer",
+        "btn_disable": "Désactiver",
+        "phrase_enabled": "La phrase anti-hameçonnage est activée.",
+        "phrase_note": "Ajoutez une phrase spéciale pour empêcher les tentatives de phishing de faux sites Web et adresses e-mail",
+        "phrase_placeholder": "Phrase secrète",
+        "phrase_error": "La phrase ne doit pas être vide ou contenir plus de 200 symboles."
+      }
+    }
+  },
+  "Wallets": {
+    "Airdrop": {
+      "airdrop": "Largage aérien",
+      "airdrop_wallet": "Portefeuille Airdrop",
+      "airdrop_balance": "Solde de largage aérien",
+      "token_amount": "j MONTANT DU TEST",
+      "total_devident": "AIR DROP TOTAL",
+      "tokens_total": "MONTANT TOTAL du jTESTA",
+      "deg_jtesta": "% DE jTESTA",
+      "transaction_history": "Historique des transactions"
+    },
+    "Futures": {
+      "assets": "Les atouts",
+      "collaterals": "Garanties",
+      "entry_price": "Prix d'entrée",
+      "margin_balance": "Solde de la marge",
+      "mark_price": "Marquer le prix",
+      "pnl_analysis": "Analyse PNL",
+      "symbol": "symbole",
+      "size": "Taille",
+      "total_cross_collateral": "Total des garanties croisées",
+      "total_interest": "Intérêt total",
+      "total_borrowed": "Total emprunté",
+      "unrealized_pnl": "PNL non réalisé",
+      "unrealized_pnl_reo": "PNL non réalisé (REO%)"
+    },
+    "Margin": {
+      "borrowed": "Emprunté",
+      "borrow_repay": "Emprunter/Rembourser",
+      "equity_value_btc": "VALEUR DES CAPITAUX PROPRES (BTC)",
+      "interes": "INTÉRÊT"
+    },
+    "Spot": {
+      "Options": { "deposit": "Dépôt", "withdraw": "Retirer" },
+      "CryptoWithdraw": {
+        "heading": "Solde total:",
+        "mtcg_withdraw_note": "MTCG est la devise interne de la plateforme, vous pouvez l'échanger contre une autre devise qui vous convient et la retirer.",
+        "exchange_link_btn": "Aller à l'échange",
+        "form": {
+          "adress_label": "Adresse de paiement",
+          "adress_placeholder": "Adresse du portefeuille",
+          "comission_info": "Commission pour ce retrait : {code}%",
+          "adress_error": "Veuillez saisir une adresse de portefeuille.",
+          "amount_label": "Montant",
+          "amount_error": "Veuillez saisir un montant valide.",
+          "amount_sum_error": "Le montant ne peut pas être supérieur à votre solde et inférieur à :",
+          "submit_btn": "Soumettre"
+        },
+        "fiatForm": {
+          "adress_label": "Adresse de paiement",
+          "adress_placeholder": "Adresse du portefeuille",
+          "comission_info": "Commission pour ce retrait : {code}%",
+          "adress_error": "Veuillez saisir une adresse de portefeuille.",
+          "amount_label": "Montant",
+          "amount_error": "Veuillez saisir un montant valide.",
+          "amount_sum_error": "Le montant ne peut pas être supérieur à votre solde et inférieur à :",
+          "submit_btn": "Soumettre",
+          "payment_system_label": "Système de paiement",
+          "payment_system_default": "Choisissez le système de paiement",
+          "payment_system_error": "Veuillez choisir le système de paiement.",
+          "payment_account_info": "Votre numéro de compte personnel dans le système sélectionné."
+        },
+        "table": {
+          "heading": "Historique des retraits récents",
+          "th_date_time": "Date et heure",
+          "th_status": "Complété",
+          "th_coin": "Pièce de monnaie",
+          "th_amount": "Montant",
+          "th_address": "Adresse",
+          "th_hash": "Hacher",
+          "th_information": "Informations",
+          "item_heading": "l'histoire",
+          "item_date_time": "Date et heure",
+          "item_status": "Complété",
+          "item_coin": "Pièce de monnaie",
+          "item_amount": "Montant",
+          "item_information": "Informations"
+        },
+        "withdraw_gold": {
+          "title": "Demande de retrait d'or",
+          "gold_rate": "Cours de l'or actuel :",
+          "form_subtitle": "Personne à qui livrer les marchandises",
+          "quantity": "Quantité",
+          "quantity_error": "La quantité doit être un multiple de 100.",
+          "quantity_sum_error": "La quantité ne peut pas être supérieure à votre solde.",
+          "final_destination": "Destination finale",
+          "airport": "Aéroport international",
+          "swiss_country": "Pays suisse",
+          "delivery_price": "Prix de livraison",
+          "comission": "Commission",
+          "total": "Le total",
+          "country": "Pays",
+          "country_error": "Veuillez entrer le pays correctement",
+          "city": "Ville",
+          "city_error": "Veuillez entrer la ville correctement",
+          "street": "rue",
+          "street_error": "Veuillez entrer la rue correctement",
+          "house": "loger",
+          "house_error": "Veuillez entrer dans la maison correctement",
+          "postal_code": "Code postal",
+          "postal_code_error": "Veuillez entrer le code postal correctement",
+          "room": "Chambre",
+          "room_error": "Veuillez entrer dans la pièce correctement",
+          "name": "Nom et prénom",
+          "name_error": "Veuillez saisir le nom correctement.",
+          "email": "E-mail",
+          "email_error": "Veuillez entrer un e-mail correct.",
+          "phone": "Téléphoner",
+          "photo": "photo",
+          "photo_error": "Veuillez ajouter la photo du récepteur.",
+          "photo_format_error": "Veuillez télécharger un fichier .png ou .jpg",
+          "photo_size_note": "S'il vous plaît, téléchargez une image jusqu'à 3 Mo",
+          "photo_size_error": "S'il vous plaît, téléchargez une image jusqu'à 3 Mo",
+          "delete_files_by": "Vous pouvez également supprimer le fichier en",
+          "upload_files_by": "Vous pouvez également télécharger des fichiers en",
+          "clicking_here": "En cliquant ici",
+          "allowed_formats": ". JPG. PNG",
+          "submit_btn": "Envoyer une demande",
+          "comment": "Commenter",
+          "comment_placeholder": "Ici vous pouvez ajouter un commentaire ou une note",
+          "submit_btn_error": "Certains champs ne sont pas remplis correctement, merci de les vérifier.",
+          "select_country": "Choisissez un pays",
+          "select_airport": "Sélectionnez un aéroport",
+          "DeliveryInfo": {
+            "limit_title": "La quantité minimale pour la livraison d'or est de 100 grammes.",
+            "limit_info": "Les frais énumérés ci-dessous comprenant : le transport, le dédouanement et l'assurance sont à considérer pour chaque kg d'or expédié et le tarif minimum sera calculé sur un poids minimum d'un kilogramme même si l'envoi sera plus léger.",
+            "delivery_price_note": "Variables de temps et de coût :",
+            "airport_delivery": "Livraison dans n'importe quel aéroport international :",
+            "airport_info": "- Les délais de livraison sont de 24/48 heures - 375 euros pour le transport, l'assurance et le dédouanement (hors taxes éventuelles, si appliquées par le pays d'arrivée des marchandises). - Vous payez des frais de dépôt pour chaque jour où l'or reste dans le coffre-fort/caveau. Cette caution varie de 20 à 30 dollars par jour et en tout cas selon les demandes de l'aéroport de référence.",
+            "own_adress": "Livraison à votre propre adresse (coffre, domicile, banque, etc.) :",
+            "own_adress_note_1": "- Les délais de livraison varient en fonction de la distance entre le lieu de livraison et l'aéroport international le plus proche, cependant ils ne dépasseront jamais 96 heures.",
+            "own_adress_note_2": "- 475 euros pour le transport, l'assurance et le dédouanement (hors taxes éventuelles, si appliquées par votre pays).",
+            "own_adress_note_3": "- En cas de non-livraison, du fait du destinataire, la marchandise sera renvoyée au coffre-fort ou à l'aéroport international le plus proche, des frais éventuels pour un nouvel envoi/livraison pourront être facturés.",
+            "swiss_delivery_info": "La livraison dans l'état suisse a un coût de 50 euros, transport et assurance compris, pour chaque kg d'or expédié et le tarif minimum sera calculé sur un poids minimum d'un kilogramme même si l'envoi sera inférieur. Les délais de livraison sont sous 24h"
+          },
+          "Gold_table": {
+            "heading": "Historique des retraits d'or récents",
+            "th_date_time": "Date et heure",
+            "th_status": "Statut",
+            "th_quantity": "Quantité",
+            "th_total_comission": "Commission totale",
+            "th_adress": "Adresse",
+            "th_name": "Nom",
+            "item_date_time": "Date et heure",
+            "item_status": "Statut",
+            "item_quantity": "Quantité",
+            "item_total_comission": "Commission totale",
+            "item_adress": "Adresse",
+            "item_name": "Nom"
+          }
+        }
+      },
+      "CryptoDeposit": {
+        "total_balance": "Solde total:",
+        "recent_deposit_history": "Historique des dépôts récents",
+        "commission_note": "Commission de dépôt : {code} %",
+        "Tips": {
+          "title": "Conseils",
+          "tip_first": "Si vous avez déposé, veuillez prêter attention aux SMS, lettres de site et e-mails que nous vous envoyons.",
+          "tip_second": "Les pièces seront déposées après les confirmations du réseau {code}.",
+          "tip_third": "Jusqu'à ce que les confirmations {code} soient effectuées, un montant équivalent de vos actifs sera temporairement indisponible pour les retraits.",
+          "tip_fourth": "Segregated Witness (SegWit) est une mise à niveau du protocole Bitcoin qui offre des frais de transaction inférieurs et des transactions plus rapides."
+        },
+        "Adress": {
+          "title": "Adresse",
+          "adress_rule": "Envoyez uniquement {code} à cette adresse de dépôt.",
+          "adress_note": "L'envoi de pièces ou de jetons autres que {code} à cette adresse peut entraîner la perte de votre dépôt."
+        },
+        "Form": {
+          "payment_system_default": "Choisissez le système de paiement",
+          "payment_system_label": "Choisissez le système de paiement",
+          "payment_system_error": "Veuillez choisir le système de paiement",
+          "amount": "Montant",
+          "amount_error": "Le montant total doit être supérieur à 0.",
+          "submit_btn": "Soumettre",
+          "payment_window_note": "Dans le cas où une fenêtre de paiement a été bloquée par votre navigateur {link} pour l'ouvrir.",
+          "payment_window_link": "cliquez ici"
+        },
+        "GoldDepositForm":{
+          "payment_system_default": "Choisissez le système de paiement",
+          "payment_system_label": "Choisissez le système de paiement",
+          "payment_system_error": "Veuillez choisir le système de paiement",
+          "amount": "Montant",
+          "amount_error": "Le montant total doit être supérieur à 0.",
+          "submit_btn": "Soumettre",
+          "payment_currency_default": "Devise",
+          "payment_currency_label": "Choisissez la devise de paiement",
+          "payment_currency_error": "Veuillez choisir la devise",
+          "deposit_comission": "Commission pour le dépôt {crypt}: {fee} %",
+          "amount_to_be_credited": "Montant à créditer : {amount} grammes",
+          "amount_to_be_credited_mtcg": "Montant à créditer : {amount} {crypt}",
+          "current_rate": "Taux actuel : 1 gramme d'or = {rate} {currency}",
+          "current_rate_mtcg": "Taux actuel : 1 MTCG = {rate} {currency}",
+          "currency_equivalent":"Équivalent en devise : {equivalent}",
+          "payment_window_note": "Dans le cas où une fenêtre de paiement a été bloquée par votre navigateur {link} pour l'ouvrir.",
+          "payment_window_link": "cliquez ici"
+        }
+      },
+      "FiatDeposit": {
+        "download_invoice": "Télécharger la facture",
+        "generate_invoice": "Générer une facture",
+        "minimum_deposit": "Le dépôt minimum est de {value}"
+      },
+      "FiatDepositForm": {
+        "form_title": "Détails de la carte",
+        "form_note": "Nous ne prenons pas en compte la commission de votre banque",
+        "card_label": "Numéro de carte",
+        "card_error": "Le numéro de carte doit contenir 16 chiffres.",
+        "cardholder_label": "Nom du titulaire",
+        "cardholder_placeholder": "Nom du titulaire",
+        "cardholder_error": "Veuillez saisir le nom correctement.",
+        "expiry_label": "Date d'expiration",
+        "expiry_error": "Le format autorisé est mm/aa",
+        "cvv_label": "Code CVV / CVC",
+        "cvv_placeholder": "Code CVV / CVC",
+        "cvv_error": "Veuillez saisir correctement le code cvv/cvc",
+        "submit_btn": "Envoyer une demande",
+        "sumbit_error": "Veuillez remplir correctement tous les champs obligatoires."
+      }
+    },
+    "show_balance": "Afficher le solde",
+    "hide_balance": "Masquer le solde",
+    "2fa": "Code d'authentification Google (2FA)",
+    "code": "Code",
+    "amount": "Montant",
+    "available": "Disponible",
+    "available_balance": "Solde disponible",
+    "action": "action",
+    "address": "Adresse",
+    "borrow": "Emprunter",
+    "buy": "Acheter",
+    "balance": "Équilibre",
+    "btc": "BTC",
+    "cross": "Traverser",
+    "copy": "Copie",
+    "crypto_fiat_balance": "Balance Crypto/Fiat",
+    "coin": "Pièce de monnaie",
+    "comment": "commenter",
+    "currency": "Devise",
+    "date": "Date",
+    "date_time": "Date et heure",
+    "deposit": "Dépôt",
+    "deposit_withdraw": "Dépôt retirer",
+    "estimated_availbale_balance": "Solde disponible estimé :",
+    "from": "De",
+    "futures": "Contrats à terme",
+    "fee": "Frais",
+    "funds": "Fonds",
+    "generate": "produire",
+    "hide_low_balance": "Masquer les actifs et les dettes à faible solde",
+    "hide": "Cacher",
+    "isolated": "Isolé",
+    "information": "Informations",
+    "in_order": "En ordre",
+    "locked": "Fermé à clé",
+    "margin": "Marge",
+    "margin_history": "Historique des marges",
+    "memo": "Note",
+    "profit_loss": "Perte de profit",
+    "positions": "Postes",
+    "p2p": "P2P",
+    "pair": "Paire",
+    "quantity": "Quantité",
+    "qty": "QTÉ",
+    "repay": "Rembourser",
+    "spot": "Endroit",
+    "spot_wallet": "Portefeuille Spot",
+    "since_data": "Depuis {data}",
+    "show": "Spectacle",
+    "sell": "Vendre",
+    "status": "Statut",
+    "submit": "Soumettre",
+    "to": "À",
+    "transfer": "Transfert",
+    "today": "Aujourd'hui",
+    "transaction_history": "Historique des transactions",
+    "total": "Le total",
+    "total_balance": "Solde total",
+    "type": "Taper",
+    "trade": "Échanger",
+    "fiat_trade_warning": "Les devises Fiat ne peuvent pas être échangées.",
+    "transfers": "Transferts",
+    "view_details": "Voir les détails",
+    "withdrawal": "Retirer",
+    "status_type": {
+      "confirmed": "Confirmé",
+      "unconfirmed": "Non confirmé",
+      "completed": "Complété",
+      "pending": "En attente",
+      "waiting": "Attendre",
+      "processing": "Traitement",
+      "processed": "Traité",
+      "canceled": "Annulé",
+      "rejected": "Rejeté",
+      "in_progress": "En cours",
+      "not_status": "Pas de statut"
+    }
+  }
+}

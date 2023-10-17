@@ -1,0 +1,154 @@
+@import 'colors';
+
+.table{
+	padding: 15px;
+}
+.table_title{
+	text-transform: uppercase;
+	color:$item_title;
+	padding: 40px 80px 35px 70px;
+}
+.table_title th{
+	font-size: 13px !important;
+	font-weight: 700 !important;
+}
+.table_row{
+	font-weight: 700;
+}
+ .table>tbody>tr>th{
+	padding: 15px 60px;
+	font-weight: 900;
+	vertical-align: middle;
+}
+
+.table_row:nth-child(2n+1){
+	box-shadow: 9px 9px 9px 0 rgba(0,0,0,.04);
+	border-radius:8px;
+	border:1px solid #efefef;
+}
+.status{
+	color:$status;
+}
+th{
+	border:none !important;
+}
+.table_wrap{
+	padding: 15px;
+	background: $table_bg;
+}
+/************************************Transaction table**********************************************/ 
+.transaction_content .table>tbody>tr>th{
+	padding: 25px !important;
+}
+.transaction_content .table_wrap{
+	overflow-y: scroll;
+	&::-webkit-scrollbar {
+    width: 10px;
+  	}
+	  &::-webkit-scrollbar-track {
+		color:$scroll;
+		display: block;
+	  }
+	  &::-webkit-scrollbar-thumb {
+	      background: $scroll;
+	      border-radius: 5px;
+	  }
+	}
+
+/************************************Fees table**********************************************/ 
+.coin_name{
+	margin-left: 45px;
+	font-weight: 700;
+}
+.fees_content{
+	margin-bottom: 100px;
+}
+/************************************Wallets table**********************************************/ 
+.table .theme-autorization{
+	float:right;
+	margin-left: 0;
+}
+.wallets_content .table_wrap{
+	overflow-y: scroll;
+	&::-webkit-scrollbar {
+    width: 10px;
+  	}
+	  &::-webkit-scrollbar-track {
+		color:$scroll;
+		display: block;
+	  }
+	  &::-webkit-scrollbar-thumb {
+	      background: $scroll;
+	      border-radius: 5px;
+	  }
+	}
+/************************************Orders tables**********************************************/ 
+.orders_content .table>tbody>tr>th{
+	padding: 15px 50px!important;
+}
+.open_orders .table>tbody>tr>th,.open_order .table>tbody>tr>th{
+	padding: 15px 30px!important;
+}
+.order_book .table>tbody>tr>th{
+	padding: 15px 20px!important;
+}
+.tab-content .table>tbody>tr{
+	border-radius: 5px;
+}
+.tab-content .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{
+	border: 0;
+}
+.tab-content .table{
+	border-spacing: 0 10px;
+    border-collapse: initial;
+    margin-bottom: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-bottom: 0 !important;
+}
+.open_orders{
+	overflow-y: scroll;
+	&::-webkit-scrollbar {
+    width: 10px;
+  	}
+	  &::-webkit-scrollbar-track {
+		color:$scroll;
+		display: block;
+	  }
+	  &::-webkit-scrollbar-thumb {
+	      background: $scroll;
+	      border-radius: 5px;
+	  }
+	}
+.market .table_wrap{
+	height: 540px;
+	overflow: auto;
+	&::-webkit-scrollbar {
+    width: 10px;
+  }
+  &::-webkit-scrollbar-track {
+	color:$scroll;
+	display: block;
+  }
+  &::-webkit-scrollbar-thumb {
+      background: $scroll;
+      border-radius: 5px;
+  }
+}
+.section-tabs .table>tbody>tr>th{
+	padding: 15px 10px!important;
+}
+.open_order .table_wrap{
+	overflow-y: scroll;
+	&::-webkit-scrollbar {
+    width: 10px;
+  	}
+	  &::-webkit-scrollbar-track {
+		color:$scroll;
+		display: block;
+	  }
+	  &::-webkit-scrollbar-thumb {
+	      background: $scroll;
+	      border-radius: 5px;
+	  }
+	}

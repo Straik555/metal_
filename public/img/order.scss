@@ -1,0 +1,227 @@
+@import "colors";
+
+.order_book,.open_order,.market{
+	margin-bottom: 40px;
+}
+.btn_2{
+	margin-right: 25px;
+}
+.order_btns .theme-autorization{
+	margin-left: 0;
+	display: inline-block;
+}
+.order_btns .theme-autorization__item{
+	font-size: 17px;
+	text-transform: uppercase;
+	font-weight: 700;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	height: auto;
+	width: 190px;
+	display: inline-block;
+}
+.order_btns{
+	vertical-align: top;
+}
+.btc{
+	padding-left: 140px;
+	padding-right: 140px;
+}
+.orders_subtitle{
+	text-transform: uppercase;	
+	color:$main_color;
+	font-size: 17px;
+	font-weight: 700;
+	margin-bottom: 35px;
+}
+.obook_subtitle{
+	padding-left: 40px;
+	padding-right: 40px;
+}
+.orders_content .trades_subtitle{
+	padding-left: 0;
+	padding-right: 0;
+}
+.book_title .orders_subtitle{
+	margin-bottom: 0;
+}
+.book_title {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 35px;
+}
+.orders_content .fees_item{
+	padding-left: 20px;
+	padding-right: 80px;
+}
+.obook_rtl{
+	direction: rtl;
+}
+.obook_rtl .fees_item{
+	padding-right: 20px !important;
+	padding-left: 80px !important;
+}
+.red{
+	color:#c44d4d;
+	margin-right: 5px;
+}
+.green{
+	color:#7ebc62;
+}
+.round{
+	border-radius:50%;
+	border: 2px solid #d3d3d3;
+	padding: 5px 7px;
+}
+.orders_content .btn{
+	padding-left: 140px;
+	padding-right: 140px;
+	font-size: 14px;
+}
+.history_tabs .theme-autorization{
+	margin-left: 0;
+}
+.history_tabs .theme-autorization__item{
+	width: 165px;
+	margin-bottom: 30px;
+}
+.input_img{
+	position: absolute;
+	top:0;
+	right: 0;
+}
+.btc_end{
+background: url(../img/btc.png) no-repeat 50% 50%; /* Параметры фона */
+}
+.orders_content .field-wrap{
+	display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.orders_content .form-item{
+	width: 70% !important;
+}
+.orders_content .trade{
+	margin-bottom: 30px;
+}
+.orders_content .trade .btn{
+	padding: 20px 140px;
+}
+/*******************************Tabs*********************************/ 
+.section-tabs{
+	border: none;
+}
+.section-tabs .nav-tabs.nav-justified li a,.section-tabs .nav-tabs.nav-justified li.active a{
+	font-family: 'Lato', sans-serif;
+	border:none;
+	border-radius: 0px;
+	font-size: 11px;
+	font-weight: 700;
+	padding: 15px 8px;
+}
+.section-tabs .nav-tabs li a{
+	color:$main_color;
+}
+
+.nav-tabs.nav-justified{
+	border-bottom: 1px solid $btn_blue;
+}
+.section-tabs .nav-tabs li.active a{
+	background: $btn_blue;
+	color:#fff;
+
+}
+.section-tabs .table > tbody > tr > th{
+	padding: 15px 30px !important;
+}
+.tab_table_title{
+	background: #ebecef;
+	margin-bottom: 25px !important;
+}
+.tr_white{
+	box-shadow: 9px 9px 9px 0 rgba(0,0,0,.04);
+	border-radius:8px;
+	border:1px solid #efefef;
+}
+.tr_blue{
+	background: $btn_blue;
+	color:#fff;
+}
+.fon{
+	background: #fff;
+	padding: 20px;
+	margin-bottom: 85px;
+}
+.btn-cansel{
+	padding: 8px 30px !important;
+	text-transform:lowercase !important;
+}
+.field{
+	height: 370px;
+	width: 100%;
+	background: $main_bg;
+	border-right: 15px;
+	display: flex;
+	justify-content: center;
+	align-items:center;
+}
+.history_tabs .theme-autorization__item{
+	position: static;
+}
+.information{
+	background: #fff;
+	padding: 15px;
+	margin-bottom: 30px;
+}
+.information_pr{
+	display: flex;
+	justify-content: space-between;
+}
+.information_pr .orders_subtitle{
+	display: inline-block !important;
+}
+.subtitle_information{
+	width: 200px;
+}
+.main_title_right .fa-search{
+	font-size: 20px;
+	color:#b2b2b2;
+}
+.btc_right,.eth_right{
+	background: #f7f7f7;
+	border-left: 2px solid $border-cl;
+	width: 60px;
+	height: 37px;
+	display: flex;
+    align-items: center;
+    justify-content: center;;
+    font-weight: 700;
+    top: 1px;
+    right: 2px;
+    border-radius: 0px 20px 20px 0px;
+    position: absolute;
+}
+.information_btns{
+	margin-top: 10px;
+}
+.orders_content .field-label{
+	font-weight: 700 !important;
+}
+.orders_content .information .btn{
+	padding: 10px 15px !important;
+}
+.orders_content .btn-warning-1{
+	margin-left: 10px;
+}
+.btn-default-1:hover{
+	    color: #23527c;
+}
+.btn-default-1:active{
+	background: #ff8900;
+	color:#fff;
+	box-shadow: 0px 0px 9px 0 rgba(0,0,0,.04);
+}
+.orders_content{
+	
+}

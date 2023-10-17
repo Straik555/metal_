@@ -1,0 +1,106 @@
+.yesh_invoice{
+    width: 620px;
+    height: 877px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    
+}
+
+.yesh_header {
+    background: #121418;
+    padding: 15px;
+}
+
+.yesh_logo {
+    width: 200px;
+}
+
+.yesh_main{
+    padding: 10px;
+}
+
+.yesh_title {
+    padding: 30px 15px;
+    border-bottom: 1px solid #cfd0d2;
+    font-size: 32px;
+    text-align: center;
+    margin: 0 0 30px 0;
+}
+
+.yesh_section {
+    margin-top: 20px;
+}
+
+.yesh_block{
+    padding: 0 20px;
+}
+
+.yesh_label {
+    margin: 0;
+    color: #6e7c8e;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+}
+.yesh_label_billed {
+    margin: 0;
+    color: #6e7c8e;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+}
+
+.yesh_value {
+    color: #000000;
+    font-weight: 500;
+}
+
+.yesh_value_billed {
+    margin: 0;
+    color: #000000;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+}
+
+.yesh_subtotal_label {
+    margin: 0;
+    color: #6e7c8e;
+    font-size: 14px;    
+    font-weight: 500;
+    letter-spacing: 0.1em;
+}
+
+.yesh_total_wrap {
+    margin: 10px;
+    background: #f2f3f4;
+    border: 1px solid #dadada;
+}
+
+.yesh_total_row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #dadada;
+
+}
+
+.yesh_total_left {
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #dadada;
+}
+
+.yesh_value_left {
+    width: 20%;
+    text-align: right;
+}
+
+.yesh_main_total {
+    background: #dadada;
+}

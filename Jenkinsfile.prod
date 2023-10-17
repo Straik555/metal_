@@ -1,0 +1,110 @@
+pipeline {  
+    agent any
+    environment {
+//		PROJECT_NAME = "metal_trading_webapp"
+		PROJECT_NAME = "docker-repository-global-repository9f1a3f0b-a1oibgi1yq96"
+        AWS_ECR_ACC = "398458354941"
+		AWS_ECR_REG = "eu-west-1"
+		JENKINS_ECR_CRED = "a6bfb1d9-e5c9-4838-889e-799140f19e16"
+		DEPLOY_ENV = "develop"
+        CHAT_ID = -534469841
+		BOT_ID = "1471454587:AAEXiP8BvFRY_MCzHfNo94ktlIm4yvvCn3w"
+		CHAT_MESSAGE = "metal_trading_webapp staging build"
+		GIT_REPO_TO_BUILD ="git@gitlab.com:merehead/metal-trading/metal_trading_webapp.git"
+        GIT_BRANCH_TO_BUILD = "develop"
+		GIT_REPO_CREDS = "vmoskalenko_gitlab_ssh"
+		AWS_ECR = "398458354941.dkr.ecr.eu-west-1.amazonaws.com"
+    }  
+    stages {
+
+        stage('Clone repository') {
+            steps {
+                git branch: "${GIT_BRANCH_TO_BUILD}", url: "${GIT_REPO_TO_BUILD}", credentialsId: "${GIT_REPO_CREDS}"
+            }
+        }
+
+        stage('Replace app config') {
+            steps {
+                echo 'Modifing app config ...'
+                sh '''sed -i \"s/https:\\/\\/f23owbp5dxgo.corp.merehead.xyz/https:\\/\\/ys39m9jroa.corp.merehead.xyz/g\" ./package.json'''
+                sh '''sed -i \"s/wss:\\/\\/f23owbp5dxgo.corp.merehead.xyz/wss:\\/\\/ys39m9jroa.corp.merehead.xyz/g\" ./src/services/helpers.js'''
+			}
+        }
+
+        stage('Build image') {
+            steps {
+                sh "docker build --build-arg APP_NAME=${PROJECT_NAME} -t ${AWS_ECR}/${PROJECT_NAME}:webapp -f ./Dockerfile ."
+            }
+        }
+
+        stage('Push image') {
+            steps {
+                script {
+						docker.withRegistry("https://${AWS_ECR_ACC}.dkr.ecr.${AWS_ECR_REG}.amazonaws.com", "ecr:${AWS_ECR_REG}:${JENKINS_ECR_CRED}") {
+                        sh "docker push ${AWS_ECR_ACC}.dkr.ecr.${AWS_ECR_REG}.amazonaws.com/${PROJECT_NAME}:webapp"
+                    }
+                }    
+            }   
+        }
+
+        stage('Telegram message') {
+            steps {
+                script {
+    				final String url = "https://api.telegram.org/bot${BOT_ID}/sendMessage -d chat_id=${CHAT_ID} -d "
+				
+	    			final String message = "text=\"${CHAT_MESSAGE} build completed SUCCESSFULLY\"" 
+
+                    final String response = sh(script: "/usr/bin/curl -s -X POST $url $message", returnStdout: true).trim()
+	
+				echo response
+				}
+            }
+        }
+    }
+
+    post {  
+         always {  
+             echo 'This will always run'  
+         }  
+         success {  
+             echo 'This will run only if successful'  
+         }  
+         failure {  
+                script {
+					sh """
+						log_file_name=${JENKINS_HOME}/jobs/${JOB_NAME}/builds/${BUILD_NUMBER}/log
+						loglastline=`awk '/skipped due to earlier failure/{ print NR; exit }' \$log_file_name`
+						logstartline=`awk '/docker build/{ print NR; exit }' \$log_file_name` 
+						if [ ! -n \"\$logstartline\" ]
+						then 
+							logstartline=1
+						fi
+						loglength=\$((loglastline-logstartline))
+						tail --lines=+\$logstartline \$log_file_name |head -n \$loglength| perl -p -e 's/\\n/\\r\\n/' > ${GIT_COMMIT}.txt
+					"""
+
+    				final String url = "https://api.telegram.org/bot${BOT_ID}/sendMessage -d chat_id=${CHAT_ID} -d "
+				
+	    			final String message = "text=\"${CHAT_MESSAGE} build completed with ERROR\""
+				
+                    final String response = sh(script: "/usr/bin/curl -s -X POST $url $message", returnStdout: true).trim()
+	
+				echo response
+
+					final String file_response = sh(script: "/usr/bin/curl -F document=@\"${GIT_COMMIT}.txt\" https://api.telegram.org/bot${BOT_ID}/sendDocument?chat_id=${CHAT_ID}", returnStdout: true).trim()
+
+			    echo file_response
+
+					sh(script: "/bin/rm -f ${GIT_COMMIT}.txt")
+	
+				}
+         }  
+         unstable {  
+             echo 'This will run only if the run was marked as unstable'  
+         }  
+         changed {  
+             echo 'This will run only if the state of the Pipeline has changed'  
+             echo 'For example, if the Pipeline was previously failing but is now successful'  
+         }  
+     } 
+}
